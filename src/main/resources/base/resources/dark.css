@@ -1,0 +1,382 @@
+/*Frame _ Base for all application*/
+
+QFrame#frame_base{
+background-color:rgb(24,25,29);
+}
+
+/*Frame _ Right side Qstacked containing frame*/
+QFrame#frame_mian_right{
+
+	background-color: rgb(40, 46, 51);
+}
+
+
+
+/*******************************/
+/*Frame _ for home page (IMP) */
+QFrame#frame_home{
+background-color: rgb(40, 46, 51);
+
+}
+
+
+
+/*******************************/
+
+/*Frame _ frame for combobox main for combo box background*/
+QFrame#frame_for_combo_box{
+
+background-color: rgb(40, 46, 51);
+
+}
+
+
+
+
+/*******************************/
+/*Frame _ frame for settings main*/
+QFrame#frame_settings_main
+{
+
+
+	background-color: rgb(40, 46, 51);
+}
+
+
+
+/*******************************/
+/*Frame _ frame of about page main*/
+QFrame#frame_about_main{
+
+background-color: rgb(40, 46, 51);
+}
+
+
+
+
+/*******************************/
+/*Frame _ top for all application*/
+QFrame#frame_top{
+background-color: rgb(40, 46, 51);
+
+}
+
+
+
+
+
+/*******************************/
+/*Frame _ top right*/
+
+QFrame#frame_top_right{
+background-color: rgb(84, 96, 107);
+}
+
+
+/*******************************/
+/*Frame _ frame toggle*/
+QFrame#frame_toggle{
+
+background-color: rgb(24, 25, 29);
+}
+
+
+
+/*******************************/
+/*Frame _ Base for all application*/
+
+
+
+
+/*******************************/
+/*Frame _ Base for all application*/
+
+
+
+
+/*******************************/
+/*Frame _ Base for all application*/
+
+
+
+
+/*******************************/
+/*One and only QStacked*/
+
+QStackedWidget#pages{
+
+	
+	background-color: rgb(40, 46, 51);
+}
+
+
+
+
+/*******************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Buttons*/
+/*Button _ for buttom about at left bottom*/
+
+QPushButton#button_about
+{
+color: rgb(240, 240, 240);
+background-color: rgb(24, 25, 29);
+border:0px solid black;
+}
+QPushButton#button_about:pressed
+{
+background-color: rgb(40, 46, 51);
+}
+
+/********** Buttom Home ********/
+QPushButton#button_home{
+	
+	color: rgb(240, 240, 240);
+	
+	background-color: rgb(24, 25, 29);
+	border:none;
+
+}
+QPushButton#button_home:pressed{
+background-color: rgb(40, 46, 51);
+}
+/********** Buttom settings ********/
+QPushButton#button_settings
+{
+
+	color: rgb(240, 240, 240);
+	background-color: rgb(24, 25, 29);
+	border:none;
+
+}
+QPushButton#button_settings:pressed
+{
+
+	
+	background-color: rgb(40, 46, 51);
+	border:none;
+
+}
+
+QPushButton#button_toggle{
+
+	background-color: rgb(24, 25, 29);
+	border:0px solid;
+
+}
+/*Download Button*/
+QPushButton#download_button{
+	color: rgb(240, 240, 240);
+	
+	background-color: rgb(24, 25, 29);
+	border: 0px solid black;
+	border-radius:10px;
+
+}
+QPushButton#download_button:pressed{
+background-color: rgb(58, 60, 70);
+}
+
+
+/*Get info button*/
+QPushButton#button_getinfo{
+	
+	color: rgb(240, 240, 240);
+	
+	background-color: rgb(24, 25, 29);
+		border: 0px solid black;
+	border-radius:10px;
+
+}
+QPushButton#button_getinfo:pressed{
+background-color: rgb(58, 60, 70);
+}
+/*Paste button*/
+QPushButton#button_paste{
+	
+	color: rgb(240, 240, 240);
+	
+	background-color: rgb(24, 25, 29);
+	border: 0px solid black;
+	border-radius:10px;
+
+}
+QPushButton#button_paste:hover{
+
+}
+QPushButton#button_paste:pressed{
+background-color: rgb(58, 60, 70);
+}
+/*one and only tool Button*/
+
+QToolButton#toolButton{
+	
+	color: rgb(240, 240, 240);
+	
+	background-color: rgb(24, 25, 29);
+		border: 0px solid black;
+	border-radius:10px;
+
+}
+QTololButton#toolButton:pressed{
+background-color: rgb(58, 0, 70);
+}
+
+/*Dark mode on and offf button on settings page*/
+
+QPushButton#dark_mode_onoff_button{
+
+background-color: rgb(40, 46, 51);
+border:none;
+}
+
+/* Github and Telegra Buttons*/
+
+QPushButton#github_button{
+border:none;
+
+
+
+}
+QPushButton#telegram_button
+{
+border:none;
+
+
+
+}
+
+/**********************************/
+
+
+/* Line edit for link*/
+QLineEdit#link_linedit{
+color: rgb(255, 255, 255);
+border:0px solid black;
+border-radius:5px;
+	background-color: rgb(89, 92, 107);
+
+}
+
+/*Line Edit- for save as */
+
+QLineEdit#save_as_linedit{
+color: rgb(255, 255, 255);
+border:0px solid black;
+border-radius:5px;
+	background-color: rgb(89, 92, 107);
+
+}
+
+
+QProgressBar{
+
+	color: rgb(240, 240, 240);
+
+	border: 1px solid black;
+
+	border-radius:5px;
+	
+	background-color: rgb(89, 92, 107);
+
+
+}
+/*Progress-Bar*/
+
+QProgressBar::chunk{
+
+border-radius:5px;
+background-color: rgb(24, 25, 29);
+
+}
+QProgressBar:hover{
+
+	border-color: rgb(40, 46, 51)
+
+}
+/*ComboBox*/
+
+QComboBox{
+
+	
+	color: rgb(240, 240, 240);
+	background-color: rgb(24, 25, 29);
+	border:none solid ;
+	border-radius:10px;
+
+}
+QComboBox:drop-down {
+    width: 0px;
+}
+QComboBox:on {
+   
+	background-color: rgb(89, 92, 107);
+}
+/*Radio Button for Green*/
+
+
+QRadioButton#green_radio_button{
+
+color: rgb(225, 225, 225);
+}
+QRadioButton#pink_radio_button{
+
+color: rgb(225, 225, 225);
+}
+
+
+
+QLabel#night_mode_label{
+color:rgb(250,250,250);
+}
+QLabel#choose_you_theme_label{
+color:rgb(250,250,250);
+}
+QLabel#label_info{
+color:rgb(250,250,250);
+}
+QLabel#save_as_label{
+color:rgb(250,250,250);
+}
+QLabel#title_label{
+color:rgb(250,250,250);
+}
+QLabel#status_bar{
+color:rgb(250,250,250);
+}
+	
+	
+
+
