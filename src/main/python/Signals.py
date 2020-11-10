@@ -2,6 +2,10 @@ from PySide2.QtCore import QObject,Signal
 
 
 class Communication(QObject):
+    '''
+    This Contains Qt Custom Signal to Carry Data from GetInfo and Downloader Classes
+    to Ui Updater Class
+    '''
 
     status_bar_message = Signal(str)
 
@@ -19,7 +23,7 @@ class Communication(QObject):
 
     thumbnail = Signal(bool)
 
-    new_format = Signal(str,object)
+    new_format = Signal(str,object,bool)
 
     show_download_button = Signal(bool)
 

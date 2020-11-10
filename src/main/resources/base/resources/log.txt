@@ -1,0 +1,19 @@
+1292-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=u8kR1BK-vnU
+1292-INFO-Getting Info for link:-https://www.youtube.com/watch?v=u8kR1BK-vnUis Done
+1292-ERROR-Error for Video link:https://www.youtube.com/watch?v=u8kR1BK-vnU
+Traceback (most recent call last):
+  File "C:\YouDer\src\main\python\Workers.py", line 42, in run
+    self.yt = YouTube(self.link)
+  File "c:\users\ramdurgasai\appdata\local\programs\python\python36\lib\site-packages\pytube\__main__.py", line 104, in __init__
+    self.descramble()
+  File "c:\users\ramdurgasai\appdata\local\programs\python\python36\lib\site-packages\pytube\__main__.py", line 125, in descramble
+    self.watch_html
+  File "c:\users\ramdurgasai\appdata\local\programs\python\python36\lib\site-packages\pytube\extract.py", line 244, in get_ytplayer_config
+    caller="get_ytplayer_config", pattern="config_patterns"
+pytube.exceptions.RegexMatchError: get_ytplayer_config: could not find match for config_patterns
+1292-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=1La4QzGeaaQ
+
+1292-INFO-Getting Info for link:-https://www.youtube.com/watch?v=1La4QzGeaaQ
+is Done
+5592-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=1La4QzGeaaQ
+5592-INFO-Getting Info for link:-https://www.youtube.com/watch?v=1La4QzGeaaQis Done

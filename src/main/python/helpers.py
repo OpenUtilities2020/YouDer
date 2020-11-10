@@ -1,11 +1,13 @@
 
 
-'''From StackOverFlow :- https://stackoverflow.com/questions/3154460/python-human-readable-large-numbers'''
+
 import math
 
 
 
 def millify(n):
+    '''From StackOverFlow :-
+                        https://stackoverflow.com/questions/3154460/python-human-readable-large-numbers'''
     millnames = ['', ' K', ' M ', 'B ', ' T']
     n = float(n)
     millidx = max(0,min(len(millnames)-1,
@@ -14,6 +16,9 @@ def millify(n):
     return str('{:.0f}{}'.format(n / 10**(3 * millidx), millnames[millidx]))
 
 def humanbytes(B):
+        """
+        From StackOverFlow
+        """
 
         B = float(B)
         KB = float(1024)
@@ -31,3 +36,4 @@ def humanbytes(B):
             return '{0:.2f} GB'.format(B / GB)
         elif TB <= B:
             return '{0:.2f} TB'.format(B / TB)
+

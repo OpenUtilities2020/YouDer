@@ -4,21 +4,24 @@ from PySide2.QtCore import QSize,QPropertyAnimation,QEasingCurve
 import resources_rc
 import webbrowser
 class UI_Functions():
+
     '''This class contains build in Theming functions'''
 
     def __init__(self,youder,ui,ctx):
-
         self.youder=youder
         self.ui = ui
         self.ctx = ctx
-        self.github_link="https://github.com/OpenUtilities2020/YouDer"
-        self.telegram_link="https://t.me/Open_Utilities"
+
+        #Set Home Page is Default Page
         self.ui.pages.setCurrentIndex(0)
 
-        self.dark_mode=True
-        self.green_mode=False
-        self.pink_mode=False
-        if self.dark_mode==True:
+        # Always load Dark Mode at Fist Time
+
+        self.dark_mode = True
+        self.green_mode = False
+        self.pink_mode = False
+
+        if self.dark_mode == True:
             icon = QIcon()
             icon.addFile(u":/toggle_on/icons/white/toggle_on.png", QSize(), QIcon.Normal, QIcon.Off)
             self.ui.dark_mode_onoff_button.setIcon(icon)
@@ -27,8 +30,29 @@ class UI_Functions():
             self.load_white_icons()
 
 
+        '''
+        
+        YouDer is product of Open Utilities 
+        
+        Links of 
+                Open Utilities's YouDer GitHub Account
+                
+                Open Utilities's Official Telegram Channel 
+                
+                Open Utilities's Official YouTube Channel
+        '''
 
-        #self.load_green_icons()
+
+        self.github_link="https://github.com/OpenUtilities2020/YouDer"
+        self.telegram_link="https://t.me/Open_Utilities"
+        self.youtube_link = 'https://www.youtube.com/channel/UC0XdnN27yW9DwaSFj1kmOIw/'
+
+
+
+
+
+
+
 
     def open_github(self):
         '''
@@ -43,6 +67,12 @@ class UI_Functions():
         :return:
         '''
         webbrowser.open(url=self.telegram_link,autoraise=True)
+    def open_youtube(self):
+        '''
+        TO Open OpenUtilities Youtube link in browser
+        :return:
+        '''
+        webbrowser.open(url=self.youtube_link,autoraise=True)
 
 
     def load_white_icons(self):
@@ -102,6 +132,11 @@ class UI_Functions():
         self.ui.choose_you_theme_label.setStyleSheet(u"color: rgb(240,240,240);")'''
 
     def load_black_icons(self):
+        '''To load Black Icons for Buttons and label in Day Mode or White Mode
+
+            When Day theme is loaded
+        '''
+
         icon = QIcon()  # For Toggle Button
         icon.addFile(u":/toggle_black/icons/black/toggle_hor.png", QSize(), QIcon.Normal, QIcon.Off)
         self.ui.button_toggle.setIcon(icon)
@@ -212,6 +247,7 @@ class UI_Functions():
         """Text for some labels"""
 
     def load_pink_icons(self):
+
         """Loading  Pink  icon for Buttons and labels...etc"""
         '''Loading Icon for Buttons'''
 
@@ -261,14 +297,32 @@ class UI_Functions():
         """Text for some labels"""
 
     def switch_mode(self):
+        '''This Executes when Nigh Mode Button is Clicked
+
+            If Dark Mode:
+                        set Day Mode or White Mode
+                        set Dark Mode is False
+            If not Dark Mode:
+                        set Dark Mode or Night Mode
+                        set Dark Mode is True
+        '''
         if self.dark_mode==True:
+
+            # If Dark Mode set White Style Sheet to YouDer
+
             self.youder.setStyleSheet(open(self.ctx.white).read())
 
+            #Set Dark Mode is False
             self.dark_mode=False
+
+            #Change Icon for Night Mode Button
+
             icon = QIcon()
             icon.addFile(u":/toggle_off/icons/white/toggle_off.png", QSize(), QIcon.Normal, QIcon.Off)
             self.ui.dark_mode_onoff_button.setIcon(icon)
             self.ui.dark_mode_onoff_button.setIconSize(QSize(80, 30))
+
+            '''Download Default previous  '''
             if self.pink_mode:
                 self.load_pink_icons()
                 return
@@ -276,17 +330,25 @@ class UI_Functions():
                 self.load_green_icons()
                 return
             else:
+                # IF no Specific Color
+                # Load Black Icons Because We set White mode to YOuDer
                 self.load_black_icons()
 
 
         elif self.dark_mode==False:
+            '''If Not Dark Mode or In White Mode set Dark Mode Style Sheet to YouDer'''
             self.youder.setStyleSheet(open(self.ctx.dark).read())
-            self.load_white_icons()
+
+            #Set YouDer is not in Dark Mode
             self.dark_mode=True
+
+            #Change Night Mode Button Icon
             icon = QIcon()
             icon.addFile(u":/toggle_on/icons/white/toggle_on.png", QSize(), QIcon.Normal, QIcon.Off)
             self.ui.dark_mode_onoff_button.setIcon(icon)
             self.ui.dark_mode_onoff_button.setIconSize(QSize(80, 30))
+
+            #Load Default Icons
             if self.pink_mode:
                 self.load_pink_icons()
                 return
@@ -294,10 +356,18 @@ class UI_Functions():
                 self.load_green_icons()
                 return
             else:
+                # IF no Specific Color
+                # Load White Icons Because We set Dark  mode to YpuDer
+
                 self.load_white_icons()
 
     def radio_toggled(self,button):
+        '''This Function is for set Green Pink and Black White Icons
+            When  A Radio Button is Toggled
+         '''
+
         if button==self.ui.green_radio_button:
+            # If Green Radio Button is Toggled
             if self.ui.green_radio_button.isChecked():
                 self.load_green_icons()
                 self.green_mode=True
@@ -310,6 +380,7 @@ class UI_Functions():
                     self.load_black_icons()
 
         elif button==self.ui.pink_radio_button:
+            #If Pink Radio Button is Toggled
             if self.ui.pink_radio_button.isChecked():
                 self.load_pink_icons()
                 self.pink_mode=True
@@ -321,6 +392,7 @@ class UI_Functions():
                 else:
                     self.load_black_icons()
         elif button==self.ui.default_radio_button:
+            # If Default Radio Button is Toggled
             if self.dark_mode:
                 self.load_white_icons()
             else:
@@ -333,15 +405,30 @@ class UI_Functions():
 
 
     def toggle_menu(self):
+        """Toggle Menu
+
+            This Function is for Expanding or Collapsing Left frame when
+            Upper left toggled button pressed
+
+        """
+
+        #This are Standard and Extended width for left panel
+
         standard = 50
         extended = 150
 
-        #Check width of fram main left....
+        #Check frame is expanded or not by
+
+        # Checking by current width
 
         width =self.ui.frame_main_left.width()
 
         #Swap Values
+
         if width==standard:
+            # If width is standard Or Intial State
+
+            #Set Text for button
             self.ui.button_home.setText(u"Home")
             self.ui.button_settings.setText(u"Settings")
             self.ui.button_about.setText(u"About")
@@ -349,6 +436,9 @@ class UI_Functions():
             start=standard
             end=extended
         else:
+            #If width is extended or Extended State
+
+            #Remove Text from Buttons
             self.ui.button_home.setText(u"")
             self.ui.button_settings.setText(u"")
             self.ui.button_about.setText(u"")
@@ -356,7 +446,19 @@ class UI_Functions():
             start=extended
             end=standard
 
-        #Define animations...
+
+
+
+        '''
+        
+            Changing Width of Left Frame by animating with QProperty Animation
+         
+            Duration : 400 milli Seconds
+            QEasing Curve : InOUtQUary
+            
+            Start Value , End Value : as per Expend or Collapse
+        
+        '''
 
         self.animation_frame_main_left=QPropertyAnimation(self.ui.frame_main_left,b"minimumWidth")
         self.animation_frame_main_left.setDuration(400)
@@ -370,6 +472,9 @@ class UI_Functions():
         self.animation_frame_toggle.setEndValue(end)
         self.animation_frame_toggle.setEasingCurve((QEasingCurve.InOutQuart))
 
+
+
+
         #Start Both Animations
 
         self.animation_frame_main_left.start()
@@ -379,13 +484,25 @@ class UI_Functions():
 
 
     def button_clicked(self,button):
+        ''' This Method to Set Current Page
+            for QStacked Widget
 
+            If Button
 
+                Home  Pressed : Current Index = 0
+
+                Settings Pressed : Current Index = 1
+
+                About Pressed : Current Index = 2
+        '''
         if button==self.ui.button_home:
+            # If Home Button Pressed
             self.ui.pages.setCurrentIndex(0)
         elif button==self.ui.button_settings:
+            # If Setting Button Pressed
             self.ui.pages.setCurrentIndex(1)
         elif button==self.ui.button_about:
+            # If About Button Pressed
             self.ui.pages.setCurrentIndex(2)
 
 

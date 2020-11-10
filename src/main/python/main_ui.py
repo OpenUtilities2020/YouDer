@@ -1,28 +1,31 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_main.ui'
+## Form generated from reading UI file 'main_ui.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
-
-from PySide2.QtCore import QSize,QRect,QCoreApplication,QMetaObject
-from PySide2.QtGui import QIcon,QFont,Qt,QPixmap
-from PySide2.QtWidgets import QWidget,QVBoxLayout,QFrame,QHBoxLayout,QSizePolicy,\
-                            QComboBox,QLabel,QProgressBar,QSpacerItem,QPushButton,\
-                            QStackedWidget,QRadioButton,QToolButton,QLineEdit
+#Cutom Font Product sans added
+#As above all changes to this file lost when recompiling this file
+#Add following lines after recompiling this file
+#from PySide2.QtGui import QFontDatabase
+#QFontDatabase.addApplicationFont(":/font/fonts/product_sans.ttf")
+from PySide2.QtCore import *
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
 
 import resources_rc
-import resources_rc
 
-class Ui_MainWindow(object):
-    def setupUi(self, MainWindow):
-        if not MainWindow.objectName():
-            MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1046, 526)
-        self.centralwidget = QWidget(MainWindow)
+class Ui_YouDer(object):
+    def setupUi(self, YouDer):
+        if not YouDer.objectName():
+            YouDer.setObjectName(u"YouDer")
+        QFontDatabase.addApplicationFont(":/font/fonts/product_sans.ttf")
+        YouDer.resize(1614, 526)
+        self.centralwidget = QWidget(YouDer)
         self.centralwidget.setObjectName(u"centralwidget")
         self.verticalLayout = QVBoxLayout(self.centralwidget)
         self.verticalLayout.setSpacing(0)
@@ -108,7 +111,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.frame_main_left = QFrame(self.frame_main)
         self.frame_main_left.setObjectName(u"frame_main_left")
-        self.frame_main_left.setMinimumSize(QSize(40, 0))
+        self.frame_main_left.setMinimumSize(QSize(50, 0))
         self.frame_main_left.setMaximumSize(QSize(50, 16777215))
         self.frame_main_left.setFrameShape(QFrame.NoFrame)
         self.frame_main_left.setFrameShadow(QFrame.Raised)
@@ -285,7 +288,7 @@ class Ui_MainWindow(object):
         self.frame_home_middle.setFrameShape(QFrame.NoFrame)
         self.frame_home_middle.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_5 = QHBoxLayout(self.frame_home_middle)
-        self.horizontalLayout_5.setSpacing(0)
+        self.horizontalLayout_5.setSpacing(12)
         self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
         self.horizontalLayout_5.setContentsMargins(0, 0, 0, 0)
         self.frame_for_thumbnail = QFrame(self.frame_home_middle)
@@ -295,7 +298,7 @@ class Ui_MainWindow(object):
         self.frame_for_thumbnail.setFrameShape(QFrame.NoFrame)
         self.frame_for_thumbnail.setFrameShadow(QFrame.Raised)
         self.verticalLayout_9 = QVBoxLayout(self.frame_for_thumbnail)
-        self.verticalLayout_9.setSpacing(0)
+        self.verticalLayout_9.setSpacing(15)
         self.verticalLayout_9.setObjectName(u"verticalLayout_9")
         self.verticalLayout_9.setContentsMargins(0, 0, 0, 0)
         self.frame_for_thubnail_label = QFrame(self.frame_for_thumbnail)
@@ -353,7 +356,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_9.addWidget(self.frame_for_views)
 
 
-        self.horizontalLayout_5.addWidget(self.frame_for_thumbnail)
+        self.horizontalLayout_5.addWidget(self.frame_for_thumbnail, 0, Qt.AlignTop)
 
         self.frame_for_title_and_combo = QFrame(self.frame_home_middle)
         self.frame_for_title_and_combo.setObjectName(u"frame_for_title_and_combo")
@@ -386,7 +389,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_11.addWidget(self.title_label)
 
 
-        self.verticalLayout_12.addWidget(self.frame_for_title_label)
+        self.verticalLayout_12.addWidget(self.frame_for_title_label, 0, Qt.AlignTop)
 
         self.frame_for_combo_box = QFrame(self.frame_for_title_and_combo)
         self.frame_for_combo_box.setObjectName(u"frame_for_combo_box")
@@ -401,15 +404,18 @@ class Ui_MainWindow(object):
         self.combobox.addItem("")
         self.combobox.addItem("")
         self.combobox.setObjectName(u"combobox")
-        self.combobox.setMinimumSize(QSize(200, 25))
-        self.combobox.setMaximumSize(QSize(225, 16777215))
-        self.combobox.setFont(font1)
+        self.combobox.setMinimumSize(QSize(275, 25))
+        self.combobox.setMaximumSize(QSize(275, 16777215))
+        font4 = QFont()
+        font4.setFamily(u"Product Sans")
+        font4.setPointSize(10)
+        self.combobox.setFont(font4)
         self.combobox.setStyleSheet(u"")
 
         self.verticalLayout_13.addWidget(self.combobox)
 
 
-        self.verticalLayout_12.addWidget(self.frame_for_combo_box, 0, Qt.AlignRight)
+        self.verticalLayout_12.addWidget(self.frame_for_combo_box, 0, Qt.AlignRight|Qt.AlignTop)
 
 
         self.horizontalLayout_5.addWidget(self.frame_for_title_and_combo)
@@ -457,10 +463,10 @@ class Ui_MainWindow(object):
         self.status_bar = QLabel(self.frame_for_progress_top)
         self.status_bar.setObjectName(u"status_bar")
         self.status_bar.setMinimumSize(QSize(400, 0))
-        font4 = QFont()
-        font4.setFamily(u"Product Sans")
-        font4.setPointSize(11)
-        self.status_bar.setFont(font4)
+        font5 = QFont()
+        font5.setFamily(u"Product Sans")
+        font5.setPointSize(11)
+        self.status_bar.setFont(font5)
         self.status_bar.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignVCenter)
         self.status_bar.setWordWrap(True)
 
@@ -508,10 +514,7 @@ class Ui_MainWindow(object):
 
         self.save_as_label = QLabel(self.frame_for_save_as)
         self.save_as_label.setObjectName(u"save_as_label")
-        font5 = QFont()
-        font5.setFamily(u"Product Sans")
-        font5.setPointSize(10)
-        self.save_as_label.setFont(font5)
+        self.save_as_label.setFont(font4)
 
         self.horizontalLayout_10.addWidget(self.save_as_label)
 
@@ -611,7 +614,8 @@ class Ui_MainWindow(object):
         font6.setFamily(u"Product Sans")
         font6.setPointSize(24)
         self.choose_you_theme_label.setFont(font6)
-        #self.choose_you_theme_label.setStyleSheet(u"color: rgb(240, 240, 240);")
+        self.choose_you_theme_label.setStyleSheet(u"")
+        self.choose_you_theme_label.setWordWrap(True)
 
         self.verticalLayout_19.addWidget(self.choose_you_theme_label)
 
@@ -631,7 +635,7 @@ class Ui_MainWindow(object):
         self.night_mode_label = QLabel(self.layoutWidget1)
         self.night_mode_label.setObjectName(u"night_mode_label")
         self.night_mode_label.setFont(font1)
-        #self.night_mode_label.setStyleSheet(u"color: rgb(240, 240, 240);")
+        self.night_mode_label.setStyleSheet(u"")
 
         self.horizontalLayout_13.addWidget(self.night_mode_label)
 
@@ -640,7 +644,7 @@ class Ui_MainWindow(object):
         self.dark_mode_onoff_button.setMaximumSize(QSize(80, 30))
         self.dark_mode_onoff_button.setStyleSheet(u"")
         icon7 = QIcon()
-        icon7.addFile(u":/toggle_on/icons/white/toggle_on.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon7.addFile(u":/toggle_off/icons/white/toggle_off.png", QSize(), QIcon.Normal, QIcon.Off)
         self.dark_mode_onoff_button.setIcon(icon7)
         self.dark_mode_onoff_button.setIconSize(QSize(80, 30))
 
@@ -738,10 +742,12 @@ class Ui_MainWindow(object):
         self.frame_about_main_left.setFrameShadow(QFrame.Raised)
         self.verticalLayout_22 = QVBoxLayout(self.frame_about_main_left)
         self.verticalLayout_22.setObjectName(u"verticalLayout_22")
-        self.label_6 = QLabel(self.frame_about_main_left)
-        self.label_6.setObjectName(u"label_6")
+        self.label_for_logo = QLabel(self.frame_about_main_left)
+        self.label_for_logo.setObjectName(u"label_for_logo")
+        self.label_for_logo.setPixmap(QPixmap(u":/icon/icons/icon.png"))
+        self.label_for_logo.setScaledContents(True)
 
-        self.verticalLayout_22.addWidget(self.label_6)
+        self.verticalLayout_22.addWidget(self.label_for_logo)
 
 
         self.horizontalLayout_14.addWidget(self.frame_about_main_left)
@@ -781,26 +787,26 @@ class Ui_MainWindow(object):
         self.frame_for_info_extra_links.setFrameShape(QFrame.StyledPanel)
         self.frame_for_info_extra_links.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_15 = QHBoxLayout(self.frame_for_info_extra_links)
-        self.horizontalLayout_15.setSpacing(50)
+        self.horizontalLayout_15.setSpacing(20)
         self.horizontalLayout_15.setObjectName(u"horizontalLayout_15")
-        self.horizontalSpacer_3 = QSpacerItem(88, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
+        self.horizontalSpacer_4 = QSpacerItem(296, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
-        self.horizontalLayout_15.addItem(self.horizontalSpacer_3)
+        self.horizontalLayout_15.addItem(self.horizontalSpacer_4)
 
-        self.github_button = QPushButton(self.frame_for_info_extra_links)
-        self.github_button.setObjectName(u"github_button")
-        self.github_button.setStyleSheet(u"QPushButton{\n"
+        self.youtube_button = QPushButton(self.frame_for_info_extra_links)
+        self.youtube_button.setObjectName(u"youtube_button")
+        self.youtube_button.setStyleSheet(u"QPushButton{\n"
 "border:none;\n"
 "\n"
 "\n"
 "\n"
 "}")
         icon8 = QIcon()
-        icon8.addFile(u":/github/icons/white/github_icon.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.github_button.setIcon(icon8)
-        self.github_button.setIconSize(QSize(64, 64))
+        icon8.addFile(u":/youtube_icon/icons/black/youtube_icon.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.youtube_button.setIcon(icon8)
+        self.youtube_button.setIconSize(QSize(64, 64))
 
-        self.horizontalLayout_15.addWidget(self.github_button)
+        self.horizontalLayout_15.addWidget(self.youtube_button)
 
         self.telegram_button = QPushButton(self.frame_for_info_extra_links)
         self.telegram_button.setObjectName(u"telegram_button")
@@ -817,9 +823,24 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_15.addWidget(self.telegram_button)
 
-        self.horizontalSpacer_4 = QSpacerItem(100, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
+        self.github_button = QPushButton(self.frame_for_info_extra_links)
+        self.github_button.setObjectName(u"github_button")
+        self.github_button.setStyleSheet(u"QPushButton{\n"
+"border:none;\n"
+"\n"
+"\n"
+"\n"
+"}")
+        icon10 = QIcon()
+        icon10.addFile(u":/github/icons/white/github_icon.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.github_button.setIcon(icon10)
+        self.github_button.setIconSize(QSize(64, 64))
 
-        self.horizontalLayout_15.addItem(self.horizontalSpacer_4)
+        self.horizontalLayout_15.addWidget(self.github_button)
+
+        self.horizontalSpacer_3 = QSpacerItem(100, 20, QSizePolicy.Fixed, QSizePolicy.Minimum)
+
+        self.horizontalLayout_15.addItem(self.horizontalSpacer_3)
 
 
         self.verticalLayout_23.addWidget(self.frame_for_info_extra_links)
@@ -834,8 +855,31 @@ class Ui_MainWindow(object):
         self.frame_about_main_top.setObjectName(u"frame_about_main_top")
         self.frame_about_main_top.setFrameShape(QFrame.NoFrame)
         self.frame_about_main_top.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_16 = QHBoxLayout(self.frame_about_main_top)
+        self.horizontalLayout_16.setObjectName(u"horizontalLayout_16")
+        self.horizontalSpacer_6 = QSpacerItem(750, 126, QSizePolicy.Fixed, QSizePolicy.Minimum)
 
-        self.verticalLayout_21.addWidget(self.frame_about_main_top)
+        self.horizontalLayout_16.addItem(self.horizontalSpacer_6)
+
+        self.verticalLayout_26 = QVBoxLayout()
+        self.verticalLayout_26.setObjectName(u"verticalLayout_26")
+        self.verticalSpacer = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
+
+        self.verticalLayout_26.addItem(self.verticalSpacer)
+
+        self.version_label = QLabel(self.frame_about_main_top)
+        self.version_label.setObjectName(u"version_label")
+        self.version_label.setMinimumSize(QSize(250, 0))
+        self.version_label.setMaximumSize(QSize(150, 16777215))
+        self.version_label.setFont(font1)
+
+        self.verticalLayout_26.addWidget(self.version_label)
+
+
+        self.horizontalLayout_16.addLayout(self.verticalLayout_26)
+
+
+        self.verticalLayout_21.addWidget(self.frame_about_main_top, 0, Qt.AlignBottom)
 
 
         self.verticalLayout_20.addWidget(self.frame_about_main)
@@ -853,41 +897,43 @@ class Ui_MainWindow(object):
 
         self.verticalLayout.addWidget(self.frame_base)
 
-        MainWindow.setCentralWidget(self.centralwidget)
+        YouDer.setCentralWidget(self.centralwidget)
 
-        self.retranslateUi(MainWindow)
+        self.retranslateUi(YouDer)
 
         self.pages.setCurrentIndex(0)
 
 
-        QMetaObject.connectSlotsByName(MainWindow)
+        QMetaObject.connectSlotsByName(YouDer)
     # setupUi
 
-    def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+    def retranslateUi(self, YouDer):
+        YouDer.setWindowTitle(QCoreApplication.translate("YouDer", u"MainWindow", None))
         self.thubnail_label.setText("")
         self.eye_icon_label.setText("")
-        self.views.setText(QCoreApplication.translate("MainWindow", u"125K", None))
+        self.views.setText(QCoreApplication.translate("YouDer", u"125K", None))
         self.video_length_icon_label.setText("")
-        self.length_label.setText(QCoreApplication.translate("MainWindow", u"00:00:00", None))
-        self.title_label.setText(QCoreApplication.translate("MainWindow", u"You Der is Free Open Sourced Youtube video downloader by Open utilites.....", None))
-        self.combobox.setItemText(0, QCoreApplication.translate("MainWindow", u"1080p Video- 45 Mb", None))
-        self.combobox.setItemText(1, QCoreApplication.translate("MainWindow", u" 720p Video- 33 Mb", None))
-        self.combobox.setItemText(2, QCoreApplication.translate("MainWindow", u"480p Video- 24 Mb", None))
+        self.length_label.setText(QCoreApplication.translate("YouDer", u"00:00:00", None))
+        self.title_label.setText(QCoreApplication.translate("YouDer", u"You Der is Free Open Sourced Youtube video downloader by Open utilites.....", None))
+        self.combobox.setItemText(0, QCoreApplication.translate("YouDer", u"1080p Video- 45 Mb", None))
+        self.combobox.setItemText(1, QCoreApplication.translate("YouDer", u" 720p Video- 33 Mb", None))
+        self.combobox.setItemText(2, QCoreApplication.translate("YouDer", u"480p Video- 24 Mb", None))
 
-        self.status_bar.setText(QCoreApplication.translate("MainWindow", u"Progress :", None))
-        self.save_as_label.setText(QCoreApplication.translate("MainWindow", u"Save as", None))
-        self.toolButton.setText(QCoreApplication.translate("MainWindow", u"...", None))
-        self.choose_you_theme_label.setText(QCoreApplication.translate("MainWindow", u"Choose your Theme . . . ", None))
-        self.night_mode_label.setText(QCoreApplication.translate("MainWindow", u"Night Mode ", None))
+        self.status_bar.setText(QCoreApplication.translate("YouDer", u"Progress :", None))
+        self.save_as_label.setText(QCoreApplication.translate("YouDer", u"Save as", None))
+        self.toolButton.setText(QCoreApplication.translate("YouDer", u"...", None))
+        self.choose_you_theme_label.setText(QCoreApplication.translate("YouDer", u"Choose your Theme . . . ", None))
+        self.night_mode_label.setText(QCoreApplication.translate("YouDer", u"Night Mode ", None))
         self.dark_mode_onoff_button.setText("")
-        self.default_radio_button.setText(QCoreApplication.translate("MainWindow", u"Default", None))
-        self.green_radio_button.setText(QCoreApplication.translate("MainWindow", u"Green", None))
-        self.pink_radio_button.setText(QCoreApplication.translate("MainWindow", u"Pink", None))
+        self.default_radio_button.setText(QCoreApplication.translate("YouDer", u"Default", None))
+        self.green_radio_button.setText(QCoreApplication.translate("YouDer", u"Green", None))
+        self.pink_radio_button.setText(QCoreApplication.translate("YouDer", u"Pink", None))
         self.label_for_gear_icon.setText("")
-        self.label_6.setText("")
-        self.label_info.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-weight:600;\">YouDer</span> is Free ,Open Sourced Youtube Video Downloader.YouDer is build on <span style=\" font-weight:600;\">Qt,Pytube</span> and <span style=\" font-weight:600;\">Python.</span>YouDer is a product of <span style=\" font-weight:600;\">OpenUtilites</span>.</p></body></html>", None))
-        self.github_button.setText("")
+        self.label_for_logo.setText("")
+        self.label_info.setText(QCoreApplication.translate("YouDer", u"<html><head/><body><p><span style=\" font-weight:600;\">YouDer</span> is Free ,Open Sourced Youtube Video Downloader.YouDer is build on <span style=\" font-weight:600;\">Qt,Pytube</span> and <span style=\" font-weight:600;\">Python.</span>YouDer is a product of <span style=\" font-weight:600;\">OpenUtilites</span>.</p></body></html>", None))
+        self.youtube_button.setText("")
         self.telegram_button.setText("")
+        self.github_button.setText("")
+        self.version_label.setText(QCoreApplication.translate("YouDer", u"YouDer Version 2.0", None))
     # retranslateUi
 

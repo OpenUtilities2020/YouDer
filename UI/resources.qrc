@@ -1,0 +1,149 @@
+<RCC>
+  <qresource prefix="toggle">
+    <file>icons/white/toggle_hor.png</file>
+  </qresource>
+  <qresource prefix="icon">
+    <file>icons/icon.png</file>
+  </qresource>
+  <qresource prefix="youtube_icon">
+    <file>icons/black/youtube_icon.png</file>
+  </qresource>
+  <qresource prefix="font">
+    <file>fonts/product_sans.ttf</file>
+  </qresource>
+  <qresource prefix="toggle_on">
+    <file>icons/white/toggle_on.png</file>
+  </qresource>
+  <qresource prefix="toggle_pink">
+    <file>icons/pink/toggle_hor_pink.png</file>
+  </qresource>
+  <qresource prefix="toggle_green">
+    <file>icons/green/toggle_hor_green.png</file>
+  </qresource>
+  <qresource prefix="home_pink">
+    <file>icons/pink/home.png</file>
+  </qresource>
+  <qresource prefix="home_green">
+    <file>icons/green/home_green.png</file>
+  </qresource>
+  <qresource prefix="settings_pink">
+    <file>icons/pink/settings_pink.png</file>
+  </qresource>
+  <qresource prefix="settings_green">
+    <file>icons/green/settings_green.png</file>
+  </qresource>
+  <qresource prefix="about_pink">
+    <file>icons/pink/about_pink.png</file>
+  </qresource>
+  <qresource prefix="about_green">
+    <file>icons/green/about_green.png</file>
+  </qresource>
+  <qresource prefix="paste_green">
+    <file>icons/green/paste_green.png</file>
+  </qresource>
+  <qresource prefix="paste_pink">
+    <file>icons/pink/search_pink.png</file>
+  </qresource>
+  <qresource prefix="getinfo_pink">
+    <file>icons/pink/search_pink.png</file>
+  </qresource>
+  <qresource prefix="getinfo_green">
+    <file>icons/green/search_green.png</file>
+  </qresource>
+  <qresource prefix="eye_pink">
+    <file>icons/pink/eye_pink.png</file>
+  </qresource>
+  <qresource prefix="eye_green">
+    <file>icons/green/eye_green.png</file>
+  </qresource>
+  <qresource prefix="length_pink">
+    <file>icons/pink/length_pink.png</file>
+  </qresource>
+  <qresource prefix="length_green">
+    <file>icons/green/length_green.png</file>
+  </qresource>
+  <qresource prefix="dowload_pink">
+    <file>icons/pink/download_pink.png</file>
+  </qresource>
+  <qresource prefix="download_green">
+    <file>icons/green/download_green.png</file>
+  </qresource>
+  <qresource prefix="gear_pink">
+    <file>icons/pink/gear.png</file>
+  </qresource>
+  <qresource prefix="gear_green">
+    <file>icons/green/gear_green.png</file>
+  </qresource>
+  <qresource prefix="settings_black">
+    <file>icons/black/settings.png</file>
+  </qresource>
+  <qresource prefix="about_black">
+    <file>icons/black/about.png</file>
+  </qresource>
+  <qresource prefix="paste_black">
+    <file>icons/black/paste.png</file>
+  </qresource>
+  <qresource prefix="search_black">
+    <file>icons/black/search.png</file>
+  </qresource>
+  <qresource prefix="eye_black">
+    <file>icons/black/eye.png</file>
+  </qresource>
+  <qresource prefix="video_length_black">
+    <file>icons/black/length.png</file>
+  </qresource>
+  <qresource prefix="dowload_black">
+    <file>icons/black/download.png</file>
+  </qresource>
+  <qresource prefix="gear_black">
+    <file>icons/black/settings_gear.png</file>
+  </qresource>
+  <qresource prefix="home_black">
+    <file>icons/black/home.png</file>
+  </qresource>
+  <qresource prefix="toggle_black">
+    <file>icons/black/toggle_hor.png</file>
+  </qresource>
+  <qresource prefix="video_length">
+    <file>icons/white/video_length.png</file>
+  </qresource>
+  <qresource prefix="eye">
+    <file>icons/white/eye.png</file>
+  </qresource>
+  <qresource prefix="telegram">
+    <file>icons/white/telegram.png</file>
+  </qresource>
+  <qresource prefix="github">
+    <file>icons/white/github_icon.png</file>
+  </qresource>
+  <qresource prefix="toggle_off">
+    <file>icons/white/toggle_off.png</file>
+  </qresource>
+  <qresource prefix="download">
+    <file>icons/white/download.png</file>
+  </qresource>
+  <qresource prefix="gear_icon">
+    <file>icons/white/settings_gear.png</file>
+  </qresource>
+  <qresource prefix="eye">
+    <file>icons/white/eye.png</file>
+  </qresource>
+  <qresource prefix="getinfo">
+    <file>icons/white/search.png</file>
+  </qresource>
+  <qresource prefix="paste">
+    <file>icons/white/paste.png</file>
+  </qresource>
+  <qresource prefix="about">
+    <file>icons/white/about.png</file>
+  </qresource>
+  <qresource prefix="about_green">
+    <file>icons/green/home_green.png</file>
+  </qresource>
+  <qresource prefix="settings">
+    <file>icons/white/settings.png</file>
+  </qresource>
+  <qresource prefix="home">
+    <file>icons/white/home.png</file>
+  </qresource>
+</RCC>
