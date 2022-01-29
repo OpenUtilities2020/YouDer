@@ -2,9 +2,19 @@
   <qresource prefix="toggle">
     <file>icons/white/toggle_hor.png</file>
   </qresource>
+  <qresource/>
   <qresource prefix="icon">
     <file>icons/icon.png</file>
   </qresource>
+  <qresource prefix="history">
+    <file>icons/black/history_black.png</file>
+    <file>icons/white/delete.png</file>
+    <file>icons/white/folder_new.png</file>
+    <file>icons/white/play.png</file>
+    <file>icons/white/reload.png</file>
+    <file>icons/white/history_white.png</file>
+  </qresource>
+  <qresource prefix="newPrefix"/>
   <qresource prefix="youtube_icon">
     <file>icons/black/youtube_icon.png</file>
   </qresource>
@@ -145,5 +155,9 @@
   </qresource>
   <qresource prefix="home">
     <file>icons/white/home.png</file>
+  </qresource>
+  <qresource prefix="stop">
+    <file>icons/white/stop.png</file>
+    <file>icons/black/stop_logo.png</file>
   </qresource>
 </RCC>
