@@ -704,3 +704,381 @@ pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|
 8836-INFO-Fetching data for the Video link hjjjjjjj
 8836-INFO-Fetching data for the Video link hjjjjjj
 11752-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=A2kzEG72dYU
+8084-INFO-Fetching data for the Video link color: rgb(0,0,0);
+
+border:0px solid black;
+7016-INFO-Fetching data for the Video link color: rgb(0,0,0);
+
+border:0px solid black;
+16380-INFO-Fetching data for the Video link color: rgb(0,0,0);
+
+border:0px solid black;
+16380-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=A2kzEG72dYU
+10392-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=A2kzEG72dYU
+9708-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=A2kzEG72dYU
+11092-INFO-Fetching data for the Video link https://www.youtube.co/watch?v=wwLCK9BbMdQ
+6500-INFO-Fetching data for the Video link https://www.youtube.com /watch?v=wwLCK9BbMdQ
+6500-INFO-Fetching data for the Video link gdfhfjgk
+6500-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 61, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+6500-INFO-Fetching data for the Video link gdfhf
+6500-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 61, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+6500-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=5UvC9XEAL9k
+6500-ERROR-5UvC9XEAL9k is streaming live and cannot be loaded
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 75, in run
+    default_audio_stream = yt.streams.get_audio_only() #Audio Stream
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 291, in streams
+    self.check_availability()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 229, in check_availability
+    raise exceptions.LiveStreamError(video_id=self.video_id)
+pytube.exceptions.LiveStreamError: 5UvC9XEAL9k is streaming live and cannot be loaded
+11472-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=5UvC9XEAL9k
+11472-ERROR-5UvC9XEAL9k is streaming live and cannot be loaded
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 75, in run
+    default_audio_stream = yt.streams.get_audio_only() #Audio Stream
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 291, in streams
+    self.check_availability()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 229, in check_availability
+    raise exceptions.LiveStreamError(video_id=self.video_id)
+pytube.exceptions.LiveStreamError: 5UvC9XEAL9k is streaming live and cannot be loaded
+17300-INFO-Fetching data for the Video link self.signals.fetch.emit(False)
+17300-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 61, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+17300-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=5UvC9XEAL9k
+17300-ERROR-5UvC9XEAL9k is streaming live and cannot be loaded
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 75, in run
+    default_audio_stream = yt.streams.get_audio_only() #Audio Stream
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 291, in streams
+    self.check_availability()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 229, in check_availability
+    raise exceptions.LiveStreamError(video_id=self.video_id)
+pytube.exceptions.LiveStreamError: 5UvC9XEAL9k is streaming live and cannot be loaded
+17300-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=5UvC9XEAL9k
+17300-ERROR-5UvC9XEAL9k is streaming live and cannot be loaded
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 75, in run
+    default_audio_stream = yt.streams.get_audio_only() #Audio Stream
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 291, in streams
+    self.check_availability()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 229, in check_availability
+    raise exceptions.LiveStreamError(video_id=self.video_id)
+pytube.exceptions.LiveStreamError: 5UvC9XEAL9k is streaming live and cannot be loaded
+17300-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=EX_8ZjT2sO4
+17300-ERROR-EX_8ZjT2sO4 is age restricted, and can't be accessed without logging in.
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 75, in run
+    default_audio_stream = yt.streams.get_audio_only() #Audio Stream
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 292, in streams
+    return StreamQuery(self.fmt_streams)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 172, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 156, in streaming_data
+    self.bypass_age_gate()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 260, in bypass_age_gate
+    raise exceptions.AgeRestrictedError(self.video_id)
+pytube.exceptions.AgeRestrictedError: EX_8ZjT2sO4 is age restricted, and can't be accessed without logging in.
+17300-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=EX_8ZjT2sO4
+17300-ERROR-<urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1392, in connect
+    super().connect()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 936, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 64, in run
+    'title': yt.title,
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 337, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 242, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\innertube.py", line 300, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\innertube.py", line 246, in _call_api
+    data=data
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+11096-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=EX_8ZjT2sO4
+11396-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=8_rSsJXmLNk
+11396-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=8_rSsJXmLNk>, 'raw_size': 184837825, 'common_size': '176.28 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 176.28 MB'}
+11396-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=8_rSsJXmLNk>, 'raw_size': 184837825, 'common_size': '176.28 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 176.28 MB'}
+11396-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=8_rSsJXmLNk>, 'raw_size': 184837825, 'common_size': '176.28 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 176.28 MB'}
+11396-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=8_rSsJXmLNk>, 'raw_size': 184837825, 'common_size': '176.28 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 176.28 MB'}
+9640-INFO-Fetching data for the Video link color: rgb(0,0,0);
+	background-color: rgb(255,255,255);
+	border: 0px solid black;
+	border-radius:10px;
+9640-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 62, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+9640-INFO-Fetching data for the Video link color: rgb(0,0,0);
+	background-color: rgb(255,255,255);
+	border: 0px solid black;
+	border-radius:10px;
+9640-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 62, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2872-INFO-Fetching data for the Video link file:///C:/Users/ramdu/Downloads/i.png
+2872-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 62, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2872-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=VumsdDIOY9A&list=RDVumsdDIOY9A&start_radio=1
+7576-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=5Bo1vLeDWMo
+7576-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="12fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=5Bo1vLeDWMo>, 'raw_size': 891008, 'common_size': '870.12 KB', 'resolution': '144p', 'fps': 12, 'title': '144p 12fps (video) - 870.12 KB'}
+7576-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="12fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=5Bo1vLeDWMo>, 'raw_size': 891008, 'common_size': '870.12 KB', 'resolution': '144p', 'fps': 12, 'title': '144p 12fps (video) - 870.12 KB'}
+7576-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="12fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=5Bo1vLeDWMo>, 'raw_size': 891008, 'common_size': '870.12 KB', 'resolution': '144p', 'fps': 12, 'title': '144p 12fps (video) - 870.12 KB'}
+7576-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="12fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=5Bo1vLeDWMo>, 'raw_size': 891008, 'common_size': '870.12 KB', 'resolution': '144p', 'fps': 12, 'title': '144p 12fps (video) - 870.12 KB'}
+12304-INFO-Fetching data for the Video link https://youtube.com/watch?v=5Bo1vLeDWMo
+12304-ERROR-<urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1392, in connect
+    super().connect()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 936, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 65, in run
+    'title': yt.title,
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 337, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 242, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\innertube.py", line 300, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\innertube.py", line 246, in _call_api
+    data=data
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+12304-INFO-Fetching data for the Video link 
+
+    "delete_button":{
+        'black' : ":/history_frame/icons/black/delete.png",
+        'white' : ":/history_frame/icons/white/delete.png",
+        'pink'  : ":/history_frame/icons/pink/delete.png",
+        'green' : ":/history_frame/icons/green/delete.png"
+
+    },
+    "open":{
+        'black' : ":/history_frame/icons/black/folder.png",
+        'white' : ":/history_frame/icons/white/folder.png",
+        'pink'  : ":/history_frame/icons/pink/folder_pink.png",
+        'green' : ":/history_frame/icons/green/folder_green.png"
+
+    },
+    "play":{
+        'black' : ":/history_frame/icons/black/play.png",
+        'white' : ":/history_frame/icons/white/play.png",
+        'pink'  : ":/history_frame/icons/pink/play.png",
+        'green' : ":/history_frame/icons/green/play.png"
+
+    },
+    "run":{
+        'black' : ":/history_frame/icons/black/reload.png",
+        'white' : ":/history_frame/icons/white/reload.png",
+        'pink'  : ":/history_frame/icons/pink/reload.png",
+        'green' : ":/toggle/reload_green.png"
+
+    },
+    "youtube":{
+        'black' : ":/font/youtube.png",
+        'white' : ":/font/youtube.png",
+        'pink'  : ":/font/youtube.png",
+        'green' : ":/font/youtube.png"
+
+    }
+12304-ERROR-history_fra is unavailable
+Traceback (most recent call last):
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 337, in title
+    self._title = self.vid_info['videoDetails']['title']
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 65, in run
+    'title': yt.title,
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 341, in title
+    self.check_availability()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 227, in check_availability
+    raise exceptions.VideoUnavailable(video_id=self.video_id)
+pytube.exceptions.VideoUnavailable: history_fra is unavailable
+6264-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=gR-yRj0GREg
+6264-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="7fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=gR-yRj0GREg>, 'raw_size': 3164036, 'common_size': '3.02 MB', 'resolution': '144p', 'fps': 7, 'title': '144p 7fps (video) - 3.02 MB'}
+6264-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="7fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=gR-yRj0GREg>, 'raw_size': 3164036, 'common_size': '3.02 MB', 'resolution': '144p', 'fps': 7, 'title': '144p 7fps (video) - 3.02 MB'}
+6264-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="7fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=gR-yRj0GREg>, 'raw_size': 3164036, 'common_size': '3.02 MB', 'resolution': '144p', 'fps': 7, 'title': '144p 7fps (video) - 3.02 MB'}
+6264-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="7fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=gR-yRj0GREg>, 'raw_size': 3164036, 'common_size': '3.02 MB', 'resolution': '144p', 'fps': 7, 'title': '144p 7fps (video) - 3.02 MB'}
+10948-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=RdbBY3ZqirE
+10948-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="8fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=RdbBY3ZqirE>, 'raw_size': 2885765, 'common_size': '2.75 MB', 'resolution': '144p', 'fps': 8, 'title': '144p 8fps (video) - 2.75 MB'}
+10948-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="8fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=RdbBY3ZqirE>, 'raw_size': 2885765, 'common_size': '2.75 MB', 'resolution': '144p', 'fps': 8, 'title': '144p 8fps (video) - 2.75 MB'}
+6244-INFO-Fetching data for the Video link 
+C:\Users\ramdu\Documents\YouDer-main>
+6244-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 62, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+6244-INFO-Fetching data for the Video link 
+C:\Users\ramdu\Documents\YouDer-main>
+6244-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 62, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+6244-INFO-Fetching data for the Video link 
+C:\Users\ramdu\Documents\YouDer-main>
+6244-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 62, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*

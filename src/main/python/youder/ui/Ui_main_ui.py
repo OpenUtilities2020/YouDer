@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'c:\Users\ramdu\Documents\YouDer-main\UI\main_ui.ui',
 # licensing of 'c:\Users\ramdu\Documents\YouDer-main\UI\main_ui.ui' applies.
 #
-# Created: Fri Jan 28 21:26:36 2022
+# Created: Sat Jan 29 19:29:12 2022
 #      by: pyside2-uic  running on PySide2 5.12.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -13,7 +13,7 @@ from PySide2 import QtCore, QtGui, QtWidgets
 class Ui_YouDer(object):
     def setupUi(self, YouDer):
         YouDer.setObjectName("YouDer")
-        YouDer.resize(1127, 507)
+        YouDer.resize(1127, 532)
         self.centralwidget = QtWidgets.QWidget(YouDer)
         self.centralwidget.setObjectName("centralwidget")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.centralwidget)
@@ -162,7 +162,7 @@ class Ui_YouDer(object):
         icon3 = QtGui.QIcon()
         icon3.addPixmap(QtGui.QPixmap(":/history/icons/white/history_white.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.button_history.setIcon(icon3)
-        self.button_history.setIconSize(QtCore.QSize(36, 36))
+        self.button_history.setIconSize(QtCore.QSize(30, 30))
         self.button_history.setObjectName("button_history")
         self.verticalLayout_4.addWidget(self.button_history)
         self.verticalLayout_3.addWidget(self.frame_for_button)
@@ -712,6 +712,7 @@ class Ui_YouDer(object):
         font.setPointSize(24)
         self.title_history_label.setFont(font)
         self.title_history_label.setStyleSheet("")
+        self.title_history_label.setWordWrap(True)
         self.title_history_label.setObjectName("title_history_label")
         self.verticalLayout_29.addWidget(self.frame)
         self.frame_2 = QtWidgets.QFrame(self.frame_left)
@@ -735,6 +736,7 @@ class Ui_YouDer(object):
         self.verticalLayout_31 = QtWidgets.QVBoxLayout(self.frame_5)
         self.verticalLayout_31.setObjectName("verticalLayout_31")
         self.label_for_gear_icon_2 = QtWidgets.QLabel(self.frame_5)
+        self.label_for_gear_icon_2.setMaximumSize(QtCore.QSize(200, 200))
         self.label_for_gear_icon_2.setText("")
         self.label_for_gear_icon_2.setPixmap(QtGui.QPixmap(":/history/icons/white/history_white.png"))
         self.label_for_gear_icon_2.setScaledContents(True)
@@ -814,7 +816,7 @@ class Ui_YouDer(object):
         self.scrollArea.setAlignment(QtCore.Qt.AlignHCenter|QtCore.Qt.AlignTop)
         self.scrollArea.setObjectName("scrollArea")
         self.scrollAreaWidgetContents = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 477, 410))
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 477, 435))
         self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
         self.verticalLayout_28 = QtWidgets.QVBoxLayout(self.scrollAreaWidgetContents)
         self.verticalLayout_28.setObjectName("verticalLayout_28")
@@ -1004,4 +1006,3 @@ class Ui_YouDer(object):
         self.history_delete_label.setText(QtWidgets.QApplication.translate("YouDer", "Delete History", None, -1))
         self.label_info.setText(QtWidgets.QApplication.translate("YouDer", "<html><head/><body><p><span style=\" font-weight:600;\">YouDer</span> is Free ,Open Sourced Youtube Video Downloader.YouDer is build on <span style=\" font-weight:600;\">Qt,Pytube</span> and <span style=\" font-weight:600;\">Python.</span>YouDer is a product of <span style=\" font-weight:600;\">OpenUtilites</span>.</p></body></html>", None, -1))
         self.version_label.setText(QtWidgets.QApplication.translate("YouDer", "YouDer Version 2.0", None, -1))
-

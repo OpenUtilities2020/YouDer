@@ -36,6 +36,7 @@ from os.path import isfile,dirname,basename
 import subprocess
 from time import time
 from datetime import datetime, timedelta
+from unicodedata import east_asian_width
 
 from PySide2.QtCore import  QRunnable
 from pytube.extract import publish_date
@@ -169,41 +170,44 @@ class Downloader(QRunnable):
 
 
     def run(self):
-        self.timer = time() # Get Time of Now
+        try:
+            self.timer = time() # Get Time of Now
 
-        self.video_path = self.stream.download(self.video_path,skip_existing=True)
+            self.video_path = self.stream.download(self.video_path,skip_existing=True)
 
-        if self.audio_stream and self.stream.type == 'video':
-            if not isfile(self.ffmpeg_binary) : raise FileNotFoundError(f"ffmpeg is not Found at {self.ffmpeg_binary}")
+            if self.audio_stream and self.stream.type == 'video':
+                if not isfile(self.ffmpeg_binary) : raise FileNotFoundError(f"ffmpeg is not Found at {self.ffmpeg_binary}")
 
-            self.audio_path=self.audio_stream.download(output_path=dirname(self.video_path),skip_existing=True,filename="audio")
-            self.video_path = merge(self.ffmpeg_binary,self.video_path,self.audio_path,self.merge_progress)  
-            #Completed Downloading and Merging
+                self.audio_path=self.audio_stream.download(output_path=dirname(self.video_path),skip_existing=True,filename="audio")
+                self.video_path = merge(self.ffmpeg_binary,self.video_path,self.audio_path,self.merge_progress)  
+                #Completed Downloading and Merging
+                self.signals.status_bar_message.emit("Download Completed")
+                self.signals.progress.emit(100)
+
+            if self.stream.type == 'audio' : 
+                try : os.rename(self.video_path,self.video_path[:-4]+".mp3")
+                except: pass
+
+            if self.tracking_downloads == "True": 
+                self.db.add_video(video_id = self.yt.video_id,
+                                url =  self.yt.watch_url,
+                                title = self.yt.title,
+                                thumbnail = get(self.yt.thumbnail_url).content,
+                                thumbnail_url = self.yt.thumbnail_url,
+                                author = self.yt.author,
+                                channel_id = self.yt.channel_id,
+                                channel_url = self.yt.channel_url,
+                                description = self.yt.description,
+                                views = self.yt.views,
+                                length = self.yt.length,
+                                publish_date = self.yt.publish_date,
+                                download_time = datetime.today(),
+                                location = self.video_path)
+
             self.signals.status_bar_message.emit("Download Completed")
-            self.signals.progress.emit(100)
-
-        if self.stream.type == 'audio' : 
-            try : os.rename(self.video_path,self.video_path[:-4]+".mp3")
-            except: pass
-
-        if self.tracking_downloads == "True": 
-            self.db.add_video(video_id = self.yt.video_id,
-                            url =  self.yt.watch_url,
-                            title = self.yt.title,
-                            thumbnail = get(self.yt.thumbnail_url).content,
-                            thumbnail_url = self.yt.thumbnail_url,
-                            author = self.yt.author,
-                            channel_id = self.yt.channel_id,
-                            channel_url = self.yt.channel_url,
-                            description = self.yt.description,
-                            views = self.yt.views,
-                            length = self.yt.length,
-                            publish_date = self.yt.publish_date,
-                            download_time = datetime.today(),
-                            location = self.video_path)
-
-        self.signals.status_bar_message.emit("Download Completed")
-        self.signals.download_completed.emit(self.yt)
+            self.signals.download_completed.emit(self.yt)
+        except Exception as e:
+            self.signals.error_dialog.emit("Something Went Wrong",str(e))
 
 
 

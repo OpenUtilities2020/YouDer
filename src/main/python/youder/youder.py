@@ -151,11 +151,11 @@ class YouDer(QMainWindow):
 
         self.ui_updater.fetching_started()
 
-        fetcher = Fetch(link,self.context.log)
+        fetcher = Fetch(link)
         fetcher.signals.video.connect(self.ui_updater.update_video_info)
         fetcher.signals.stream.connect(self.ui_updater.add_new_stream)
         fetcher.signals.fetch.connect(self.ui_updater.fetching_finished)
-        fetcher.signals.error_dailog.connect(self.ui_updater.show_error)
+        fetcher.signals.error_dialog.connect(self.ui_updater.show_error)
 
         
         self.threadpool_fetch.start(fetcher)
@@ -174,7 +174,7 @@ class YouDer(QMainWindow):
         '''Connect Custom Signal of Download Class to Ui Updater Slots(function)'''
         downloader.signals.progress.connect(self.ui_updater.update_progress)
         downloader.signals.status_bar_message.connect(self.ui_updater.update_status_bar)
-        downloader.signals.error_dailog.connect(self.ui_updater.show_error)
+        downloader.signals.error_dialog.connect(self.ui_updater.show_error)
         downloader.signals.download_completed.connect(self.on_download_completes)
 
         #Update Log

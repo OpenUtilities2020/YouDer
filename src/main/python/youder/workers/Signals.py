@@ -39,7 +39,7 @@ class Communication(QObject):
 
     getinfo_finished = Signal (bool)
 
-    error_dailog = Signal(str,str)
+    error_dialog = Signal(str,str)
 
     video_title = Signal(str)
 

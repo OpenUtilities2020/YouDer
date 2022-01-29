@@ -20,6 +20,13 @@ element_data = {
         "green" : ":/settings_green/icons/green/settings_green.png",
         "size" : (24,24)
     },
+    "button_history" :{
+        'black' : ":/history_frame/icons/black/history.png",
+        'white' : ":/history_frame/icons/white/history.png",
+        'green' : ":/history_frame/icons/green/history.png",
+        'pink'  : ":/history_frame/icons/pink/histroy.png"
+ 
+    },
     "button_about" : {
         "white" : ":/about/icons/white/about.png",
         "black" : ":/about_black/icons/black/about.png",
@@ -45,6 +52,13 @@ element_data = {
         },
 
     "download_button" : {
+            "white" : ":/download/icons/white/download.png",
+            "black" : ":/dowload_black/icons/black/download.png",
+            "pink" : ":/dowload_pink/icons/pink/download_pink.png",
+            "green" : ":/download_green/icons/green/download_green.png",
+            "size" : (24,24)
+        },
+    "label_for_gear_icon_2" : {
             "white" : ":/download/icons/white/download.png",
             "black" : ":/dowload_black/icons/black/download.png",
             "pink" : ":/dowload_pink/icons/pink/download_pink.png",
@@ -78,6 +92,55 @@ element_data = {
         "black" : ":/gear_black/icons/black/settings_gear.png",
         "pink" : ":/gear_pink/icons/pink/gear.png",
         "green" : ":/gear_green/icons/green/gear_green.png",
+
+    }
+
+
+
+
+}
+
+frame_elements = {
+    
+
+    "delete_button":{
+        'black' : ":/history_frame/icons/white/delete.png",
+        'white' : ":/history_frame/icons/white/delete.png",
+        'pink'  : ":/history_frame/icons/pink/delete.png",
+        'green' : ":/history_frame/icons/green/delete.png",
+        'size'  : (32,32)
+
+    },
+    "open":{
+        'black' : ":/history_frame/icons/white/folder.png",
+        'white' : ":/history_frame/icons/white/folder.png",
+        'pink'  : ":/history_frame/icons/pink/folder_pink.png",
+        'green' : ":/history_frame/icons/green/folder_green.png",
+        'size'  : (32,32)
+
+    },
+    "play":{
+        'black' : ":/history_frame/icons/white/play.png",
+        'white' : ":/history_frame/icons/white/play.png",
+        'pink'  : ":/history_frame/icons/pink/play.png",
+        'green' : ":/history_frame/icons/green/play.png",
+        'size'  : (32,32)
+
+    },
+    "run":{
+        'black' : ":/history_frame/icons/white/reload.png",
+        'white' : ":/history_frame/icons/white/reload.png",
+        'pink'  : ":/history_frame/icons/pink/reload.png",
+        'green' : ":/toggle/reload_green.png",
+        'size'  : (32,32)
+
+    },
+    "youtube":{
+        'black' : ":/font/youtube.png",
+        'white' : ":/font/youtube.png",
+        'pink'  : ":/font/youtube.png",
+        'green' : ":/font/youtube.png",
+        'size'  : (32,32)
 
     }
 }

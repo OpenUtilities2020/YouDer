@@ -5,3 +5,9 @@ links = {
         }
 
 title = "YouDer - Free, YouTube Video Downloader"
+
+formats = {
+            "1440p" : '2k',
+            "2160p" : '4k',
+            "4320"  : '8k'
+        }

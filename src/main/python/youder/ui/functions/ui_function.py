@@ -71,6 +71,8 @@ class UI_Functions():
         if not self.ui_settings.theme : self.ui_settings.theme = 'default'
         if not self.ui_settings.tracking_downloads : self.ui_settings.tracking_downloads = "True"
 
+        self.frames = []
+
 
         
         self.load_history_frames()
@@ -79,6 +81,7 @@ class UI_Functions():
 
         
         self.initial_widgets_values()
+
     def initial_widgets_values(self) -> None:
 
         self.youder.setStyleSheet(
@@ -140,7 +143,7 @@ class UI_Functions():
         if not theme : theme = self.ui_settings.theme
         if theme == 'default' :
             theme = "white" if self.ui_settings.dark_mode == "True" else "black"
-
+        self.theme = theme
         for element_name, data in elements_icons.element_data.items():
             element  = getattr(self.ui,element_name)
             keys = data.keys()
@@ -152,6 +155,7 @@ class UI_Functions():
                     element.setIconSize(QSize(*data['size']))
 
             elif isinstance(element,QLabel) : element.setPixmap(QPixmap(data[theme]))
+        self.load_frame_icons(theme)
 
 
     def track_history(self):
@@ -295,6 +299,8 @@ class UI_Functions():
         self.youder.fetch_data(link)
         self.ui.pages.setCurrentIndex(0)
 
+
+
     def delete_frame(self,frame:QFrame,id:int) -> None:
         frame.hide()
         frame.setParent(None)
@@ -309,7 +315,13 @@ class UI_Functions():
         frame_ui.open.clicked.connect(lambda : open_in_browser(dirname(location)))
         frame_ui.play.clicked.connect(lambda : open_in_browser(location))
         frame_ui.run.clicked.connect(lambda : self.re_run(url))
-        frame_ui.youtube.clicked.connect(lambda : self.open(url))
+        frame_ui.youtube.clicked.connect(lambda : open_in_browser(url))
+
+        frame_ui.delete_button.setToolTip("Delete")
+        frame_ui.open.setToolTip("Open folder")
+        frame_ui.play.setToolTip("Play Video")
+        frame_ui.run.setToolTip("Re Run YouDer Again")
+        frame_ui.youtube.setToolTip("Open on Youtube")
 
         pixmap = QPixmap()
         pixmap.loadFromData(thumbnail)
@@ -319,20 +331,39 @@ class UI_Functions():
 
         frame.setStyleSheet(open(self.context.dark_frame,'r').read())
 
-        return frame
+        return frame, frame_ui
     
-   
+    def load_frame_icons(self, theme=None):
+        if theme == None : theme = self.ui_settings.theme
+        for frame in self.frames:
+           for element_name, data in elements_icons.frame_elements.items():
+                element = getattr(frame,element_name)
+                keys = data.keys()
+                if isinstance(element, QPushButton) and theme in keys:
+                    icon = QIcon() 
+                    icon.addFile(data[theme], QSize(), QIcon.Normal, QIcon.Off)
+                    element.setIcon(icon)
+                    if 'size' in keys :
+                        element.setIconSize(QSize(*data['size']))
+
+                elif isinstance(element,QLabel) : element.setPixmap(QPixmap(data[theme]))
+        
+               
+
         
     def load_history_frames(self):
         while self.ui.history_layout.count():
             child = self.ui.history_layout.takeAt(0)
             if child.widget():
              child.widget().deleteLater()
+        self.frames = []
         history = self.db.select('id','title','thumbnail','url','location')
 
         for video in history:
             id, title, thumbnail, url,location = video
-            self.ui.history_layout.addWidget(self.history_frame(id, title, thumbnail, url,location))
+            video_frame,frame_ui = self.history_frame(id, title, thumbnail, url,location)
+            self.ui.history_layout.addWidget(video_frame)
+            self.frames.append(frame_ui)
 
         end_frame = QFrame()
         self.verticalLayout = QVBoxLayout(end_frame)
@@ -359,17 +390,5 @@ class UI_Functions():
         self.history_end_label.setText(text)
         self.ui.history_layout.addWidget(end_frame)
 
-    
-    
-
-
-
-
-    
-
-
-
-
-
-
+        self.load_frame_icons()
 

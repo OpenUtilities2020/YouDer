@@ -36,20 +36,17 @@ import requests
 
 from datetime import timedelta
 import  logging
+from urllib.error import URLError
 
 from youder.workers.Signals import Communication
 from youder.utils.helpers import millify,humanbytes
-
+from youder.data.strings import formats
 
 class Fetch(QRunnable):
     '''This class is to get Video Information from YouTube Through Pytube API'''
-    formats = {
-            "1440p" : '2k',
-            "2160p" : '4k',
-            "4320"  : '8k'
-        }
+    
 
-    def __init__(self,link:str,log_file:Union[str,None]=None) -> None:
+    def __init__(self,link:str) -> None:
         """
         @param : link >  Video Link to fetch info
         @param : log_file > log_file to setup log (Optional)
@@ -60,12 +57,6 @@ class Fetch(QRunnable):
         super(Fetch, self).__init__()
         self.signals = Communication()
         self.link=link
-
-        #Enable Logging ...
-        logging.basicConfig(filename=log_file,
-                            format='%(process)d-%(levelname)s-%(message)s',
-                            level=logging.INFO
-                            )
     def run(self) -> None:
         try:
             yt = YouTube(self.link)
@@ -117,4 +108,14 @@ class Fetch(QRunnable):
                 self.signals.stream.emit(stream_data)
             self.signals.fetch.emit(True)
         except RegexMatchError as regex_exception :
-            self.signals.error_dialog.emit("Link is Invalid","Provided link is in Invalid") 
+            self.signals.error_dialog.emit("Link is Invalid","Provided link is in Invalid")
+            self.signals.fetch.emit(False)
+            logging.exception(regex_exception) 
+        except URLError as url_error :
+            self.signals.error_dialog.emit("Connection lost", "Can't Connect to Internet ")
+            self.signals.fetch.emit(False)
+            logging.exception(url_error)
+        except Exception as e : 
+            self.signals.error_dialog.emit("Something went Wrong",str(e))
+            logging.exception(e)
+            self.signals.fetch.emit(False)

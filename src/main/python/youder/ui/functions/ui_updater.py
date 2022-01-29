@@ -142,16 +142,21 @@ class Ui_updater():
         
     @Slot(bool)
     def fetching_finished(self,bool):
-        self.ui.button_getinfo.setDisabled(False)
-        self.ui.progressbar.setMaximum(100)
-        self.ui.progressbar.hide()
-        self.ui.status_bar.setText("Ready ...")
         if bool :
             self.ui.download_button.show()
             self.ui.save_as_label.show()
             self.ui.save_as_linedit.show()
             self.ui.toolButton.show()
             self.ui.save_as_linedit.setText(join(self.ui.save_as_linedit.text(),self.video['title']))
+        else :
+            self.ui.progressbar.setMaximum(100)
+            self.ui.progressbar.hide()
+        self.ui.button_getinfo.setDisabled(False)
+        self.ui.progressbar.setMaximum(100)
+        self.ui.progressbar.setMinimum(0)
+        self.ui.progressbar.hide()
+        self.ui.status_bar.setText("Ready ...")
+            
 
     @Slot(str,str)
     def show_error(self,title,message):
