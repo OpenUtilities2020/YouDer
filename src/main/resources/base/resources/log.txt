@@ -17,3 +17,1068 @@ pytube.exceptions.RegexMatchError: get_ytplayer_config: could not find match for
 is Done
 5592-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=1La4QzGeaaQ
 5592-INFO-Getting Info for link:-https://www.youtube.com/watch?v=1La4QzGeaaQis Done
+16460-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=Vt0fj8-B_f8&ab_channel=AdityaMusicTelugu
+16460-INFO-Getting Info for link:-https://www.youtube.com/watch?v=Vt0fj8-B_f8&ab_channel=AdityaMusicTeluguis Done
+16460-INFO-Download Video for the Stream : 
+[<Stream: itag="271" mime_type="video/webm" res="1440p" fps="24fps" vcodec="vp9" progressive="False" type="video">, False]
+16460-INFO-Downloaded Video for the Stream : 
+[<Stream: itag="271" mime_type="video/webm" res="1440p" fps="24fps" vcodec="vp9" progressive="False" type="video">, False]
+16460-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=2mDCVzruYzQ&ab_channel=AdityaMusic
+16460-INFO-Getting Info for link:-https://www.youtube.com/watch?v=2mDCVzruYzQ&ab_channel=AdityaMusicis Done
+16460-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=_nly3TM01AU&ab_channel=AdityaMusicTelugu
+16460-INFO-Getting Info for link:-https://www.youtube.com/watch?v=_nly3TM01AU&ab_channel=AdityaMusicTeluguis Done
+16460-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=LWs82-V_igE&list=RDmJPEf7vWb6Q&index=3&ab_channel=ThinkMusicIndia
+16460-INFO-Getting Info for link:-https://www.youtube.com/watch?v=LWs82-V_igE&list=RDmJPEf7vWb6Q&index=3&ab_channel=ThinkMusicIndiais Done
+16460-INFO-Download Video for the Stream : 
+[<Stream: itag="137" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="avc1.640028" progressive="False" type="video">, False]
+16460-INFO-Downloaded Video for the Stream : 
+[<Stream: itag="137" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="avc1.640028" progressive="False" type="video">, False]
+16460-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=LWs82-V_igE&list=RDmJPEf7vWb6Q&index=3&ab_channel=ThinkMusicIndia
+16460-INFO-Getting Info for link:-https://www.youtube.com/watch?v=LWs82-V_igE&list=RDmJPEf7vWb6Q&index=3&ab_channel=ThinkMusicIndiais Done
+16460-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=mJPEf7vWb6Q&list=RDmJPEf7vWb6Q&index=1&ab_channel=AdityaMusic
+16460-INFO-Getting Info for link:-https://www.youtube.com/watch?v=mJPEf7vWb6Q&list=RDmJPEf7vWb6Q&index=1&ab_channel=AdityaMusicis Done
+16460-INFO-Download Video for the Stream : 
+[<Stream: itag="137" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="avc1.640028" progressive="False" type="video">, False]
+16460-INFO-Downloaded Video for the Stream : 
+[<Stream: itag="137" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="avc1.640028" progressive="False" type="video">, False]
+17240-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=mQOPH_5_jgU&ab_channel=Mr.Vivek
+17240-INFO-Getting Info for link:-https://www.youtube.com/watch?v=mQOPH_5_jgU&ab_channel=Mr.Vivekis Done
+17240-INFO-Getting Video Information for the Video link https://youtu.be/mQOPH_5_jgU
+17240-INFO-Getting Info for link:-https://youtu.be/mQOPH_5_jgUis Done
+17240-INFO-Download Video for the Stream : 
+[<Stream: itag="135" mime_type="video/mp4" res="480p" fps="25fps" vcodec="avc1.4d401e" progressive="False" type="video">, False]
+17240-INFO-Downloaded Video for the Stream : 
+[<Stream: itag="135" mime_type="video/mp4" res="480p" fps="25fps" vcodec="avc1.4d401e" progressive="False" type="video">, False]
+18988-INFO-Getting Video Information for the Video link if not os.path.isdir(self.video_path):
+                os.mkdir(self.video_path)
+18988-INFO-Getting Info for link:-if not os.path.isdir(self.video_path):
+                os.mkdir(self.video_path)is Done
+18988-ERROR-Error for Video link:if not os.path.isdir(self.video_path):
+                os.mkdir(self.video_path)
+Traceback (most recent call last):
+  File "C:\Users\ps55731\Downloads\YouDer-main\YouDer-main\src\main\python\Workers.py", line 42, in run
+    self.yt = YouTube(self.link)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+18988-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=-19EvIcr9ZA&list=RD-19EvIcr9ZA&start_radio=1&ab_channel=SaregamaTelugu
+18988-INFO-Getting Info for link:-https://www.youtube.com/watch?v=-19EvIcr9ZA&list=RD-19EvIcr9ZA&start_radio=1&ab_channel=SaregamaTeluguis Done
+18988-INFO-Download Video for the Stream : 
+[<Stream: itag="137" mime_type="video/mp4" res="1080p" fps="25fps" vcodec="avc1.640028" progressive="False" type="video">, False]
+18988-INFO-Downloaded Video for the Stream : 
+[<Stream: itag="137" mime_type="video/mp4" res="1080p" fps="25fps" vcodec="avc1.640028" progressive="False" type="video">, False]
+18988-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=-19EvIcr9ZA&list=RD-19EvIcr9ZA&start_radio=1&ab_channel=SaregamaTelugu
+18988-INFO-Getting Info for link:-https://www.youtube.com/watch?v=-19EvIcr9ZA&list=RD-19EvIcr9ZA&start_radio=1&ab_channel=SaregamaTeluguis Done
+18988-INFO-Getting Video Information for the Video link https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n'
+18988-INFO-Getting Info for link:-https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n'is Done
+18988-ERROR-Error for Video link:https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n'
+Traceback (most recent call last):
+  File "C:\Users\ps55731\Downloads\YouDer-main\YouDer-main\src\main\python\Workers.py", line 42, in run
+    self.yt = YouTube(self.link)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+18988-INFO-Getting Video Information for the Video link https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n'
+18988-INFO-Getting Info for link:-https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n'is Done
+18988-ERROR-Error for Video link:https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n'
+Traceback (most recent call last):
+  File "C:\Users\ps55731\Downloads\YouDer-main\YouDer-main\src\main\python\Workers.py", line 42, in run
+    self.yt = YouTube(self.link)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+18988-INFO-Getting Video Information for the Video link https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n'
+18988-INFO-Getting Info for link:-https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n'is Done
+18988-ERROR-Error for Video link:https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n'
+Traceback (most recent call last):
+  File "C:\Users\ps55731\Downloads\YouDer-main\YouDer-main\src\main\python\Workers.py", line 42, in run
+    self.yt = YouTube(self.link)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+18988-INFO-Getting Video Information for the Video link https://www.youtube.com/playlist?list=PLd3UqWTnYXOllYuWoZi2Uz27V7FzYZCdK
+18988-INFO-Getting Info for link:-https://www.youtube.com/playlist?list=PLd3UqWTnYXOllYuWoZi2Uz27V7FzYZCdKis Done
+18988-ERROR-Error for Video link:https://www.youtube.com/playlist?list=PLd3UqWTnYXOllYuWoZi2Uz27V7FzYZCdK
+Traceback (most recent call last):
+  File "C:\Users\ps55731\Downloads\YouDer-main\YouDer-main\src\main\python\Workers.py", line 42, in run
+    self.yt = YouTube(self.link)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+18988-INFO-Getting Video Information for the Video link https://www.youtube.com/playlist?list=PLd3UqWTnYXOllYuWoZi2Uz27V7FzYZCdK
+18988-INFO-Getting Info for link:-https://www.youtube.com/playlist?list=PLd3UqWTnYXOllYuWoZi2Uz27V7FzYZCdKis Done
+18988-ERROR-Error for Video link:https://www.youtube.com/playlist?list=PLd3UqWTnYXOllYuWoZi2Uz27V7FzYZCdK
+Traceback (most recent call last):
+  File "C:\Users\ps55731\Downloads\YouDer-main\YouDer-main\src\main\python\Workers.py", line 42, in run
+    self.yt = YouTube(self.link)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+13820-INFO-Getting Video Information for the Video link from Ui_frame_video import Ui_widget_main
+13820-INFO-Getting Info for link:-from Ui_frame_video import Ui_widget_mainis Done
+13820-ERROR-Error for Video link:from Ui_frame_video import Ui_widget_main
+Traceback (most recent call last):
+  File "C:\Users\ps55731\Downloads\YouDer-main\YouDer-main\src\main\python\Workers.py", line 42, in run
+    self.yt = YouTube(self.link)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "c:\users\ps55731\appdata\local\programs\python\python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+12048-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=uSDW0z_a6gg&ab_channel=THYVIEW
+12048-INFO-Getting Info for link:-https://www.youtube.com/watch?v=uSDW0z_a6gg&ab_channel=THYVIEWis Done
+12048-INFO-Download Video for the Stream : 
+[<Stream: itag="247" mime_type="video/webm" res="720p" fps="25fps" vcodec="vp9" progressive="False" type="video">, False]
+12048-INFO-Downloaded Video for the Stream : 
+[<Stream: itag="247" mime_type="video/webm" res="720p" fps="25fps" vcodec="vp9" progressive="False" type="video">, False]
+23108-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=lsJGSjugwP4&ab_channel=TeluguEducationTips
+23108-INFO-Getting Info for link:-https://www.youtube.com/watch?v=lsJGSjugwP4&ab_channel=TeluguEducationTipsis Done
+23108-INFO-Download Video for the Stream : 
+[<Stream: itag="247" mime_type="video/webm" res="720p" fps="30fps" vcodec="vp9" progressive="False" type="video">, False]
+23108-INFO-Downloaded Video for the Stream : 
+[<Stream: itag="247" mime_type="video/webm" res="720p" fps="30fps" vcodec="vp9" progressive="False" type="video">, False]
+12796-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=94s_-MSZZGM&list=RD94s_-MSZZGM&start_radio=1&ab_channel=TvnxtMusic
+12796-INFO-Getting Info for link:-https://www.youtube.com/watch?v=94s_-MSZZGM&list=RD94s_-MSZZGM&start_radio=1&ab_channel=TvnxtMusicis Done
+16968-INFO-Getting Video Information for the Video link border: 1px solid black; 
+16968-INFO-Getting Info for link:-border: 1px solid black; is Done
+16968-ERROR-Error for Video link:border: 1px solid black; 
+Traceback (most recent call last):
+  File "c:\Users\ps55731\Downloads\YouDer-main\YouDer-main\src\main\python\Workers.py", line 42, in run
+    self.yt = YouTube(self.link)
+  File "C:\Users\ps55731\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ps55731\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ps55731\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+25168-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=_EzdK7Hf3zo&ab_channel=Filmymoji
+25168-INFO-Getting Info for link:-https://www.youtube.com/watch?v=_EzdK7Hf3zo&ab_channel=Filmymojiis Done
+25168-INFO-Download Video for the Stream : 
+[<Stream: itag="137" mime_type="video/mp4" res="1080p" fps="25fps" vcodec="avc1.640028" progressive="False" type="video">, False]
+25168-INFO-Downloaded Video for the Stream : 
+[<Stream: itag="137" mime_type="video/mp4" res="1080p" fps="25fps" vcodec="avc1.640028" progressive="False" type="video">, False]
+4208-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=_EzdK7Hf3zo&ab_channel=Filmymoji
+4208-INFO-Getting Info for link:-https://www.youtube.com/watch?v=_EzdK7Hf3zo&ab_channel=Filmymojiis Done
+21948-INFO-Getting Video Information for the Video link https://www.youtube.com/watch?v=_EzdK7Hf3zo&ab_channel=Filmymoji
+21948-INFO-Getting Info for link:-https://www.youtube.com/watch?v=_EzdK7Hf3zo&ab_channel=Filmymojiis Done
+25992-INFO-Getting Video Information for the Video link self.ui_settings.setValue("dark_mode",self.dark_mode)
+25992-INFO-Getting Info for link:-self.ui_settings.setValue("dark_mode",self.dark_mode)is Done
+25992-ERROR-Error for Video link:self.ui_settings.setValue("dark_mode",self.dark_mode)
+Traceback (most recent call last):
+  File "c:\Users\ps55731\Downloads\YouDer-main\YouDer-main\src\main\python\Workers.py", line 42, in run
+    self.yt = YouTube(self.link)
+  File "C:\Users\ps55731\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ps55731\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ps55731\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+27384-INFO-Getting Video Information for the Video link :/toggle_off/icons/black/toggle_off.png
+27384-INFO-Getting Info for link:-:/toggle_off/icons/black/toggle_off.pngis Done
+27384-ERROR-Error for Video link::/toggle_off/icons/black/toggle_off.png
+Traceback (most recent call last):
+  File "c:\Users\ps55731\Downloads\YouDer-main\YouDer-main\src\main\python\Workers.py", line 42, in run
+    self.yt = YouTube(self.link)
+  File "C:\Users\ps55731\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ps55731\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ps55731\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+29564-INFO-Getting Video Information for the Video link create table  if not EXISTS history(
+				ID INTEGER PRIMARY KEY AUTOINCREMENT,
+				video_id varchar,
+				video_title varchar,
+				thumbnail BLOB,
+				channel_name varchar,
+				views GER,
+				video_length INTEGER,
+				download_time datetime,
+				location varchar
+				);
+29564-INFO-Getting Info for link:-create table  if not EXISTS history(
+				ID INTEGER PRIMARY KEY AUTOINCREMENT,
+				video_id varchar,
+				video_title varchar,
+				thumbnail BLOB,
+				channel_name varchar,
+				views GER,
+				video_length INTEGER,
+				download_time datetime,
+				location varchar
+				);is Done
+29564-ERROR-Error for Video link:create table  if not EXISTS history(
+				ID INTEGER PRIMARY KEY AUTOINCREMENT,
+				video_id varchar,
+				video_title varchar,
+				thumbnail BLOB,
+				channel_name varchar,
+				views GER,
+				video_length INTEGER,
+				download_time datetime,
+				location varchar
+				);
+Traceback (most recent call last):
+  File "c:\Users\ps55731\Downloads\YouDer-main\YouDer-main\src\main\python\Workers.py", line 42, in run
+    self.yt = YouTube(self.link)
+  File "C:\Users\ps55731\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ps55731\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ps55731\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+15720-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=BYxIHC8wwag&ab_channel=THYVIEW
+6752-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=BYxIHC8wwag&ab_channel=THYVIEW
+5308-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=BYxIHC8wwag&ab_channel=THYVIEW
+4224-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=BYxIHC8wwag&ab_channel=THYVIEW
+4944-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=BYxIHC8wwag&ab_channel=THYVIEW
+14912-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=BYxIHC8wwag&ab_channel=THYVIEW
+16676-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=BYxIHC8wwag&ab_channel=THYVIEW
+14436-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=BYxIHC8wwag&ab_channel=THYVIEW
+11796-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=hwskt6LtBsU&ab_channel=Filmymoji
+16376-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+12592-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+12592-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+12592-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+12592-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+21268-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=hwskt6LtBsU&ab_channel=Filmymoji
+15088-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=hwskt6LtBsU&ab_channel=Filmymoji
+15088-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=hwskt6LtBsU&ab_channel=Filmymoji
+20232-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=hwskt6LtBsU&ab_channel=Filmymoji
+11972-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=hwskt6LtBsU&ab_channel=Filmymoji
+15216-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=hwskt6LtBsU&ab_channel=Filmymoji
+15216-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=hwskt6LtBsU&ab_channel=Filmymoji
+21172-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=hwskt6LtBsU&ab_channel=Filmymoji
+19524-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=hwskt6LtBsU&ab_channel=Filmymoji
+21372-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=hwskt6LtBsU&ab_channel=Filmymoji
+14636-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=hwskt6LtBsU&ab_channel=Filmymoji
+17964-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=hwskt6LtBsU&ab_channel=Filmymoji
+20808-INFO-Fetching data for the Video link self.ui_updater.fetching_started()
+20808-INFO-Fetching data for the Video link self.ui_updater.fetching_started()
+20808-INFO-Fetching data for the Video link self.ui_updater.fetching_started()
+20808-INFO-Fetching data for the Video link self.ui_updater.fetching_started()
+20808-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+14492-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+14392-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+14796-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+16504-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+12192-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+20844-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+14056-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+20732-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+22472-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+10380-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+10380-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+10380-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+15024-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+13868-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz
+12184-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=3Rm4A6X3kO0&t=337s&ab_channel=THYVIEW
+15700-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=3Rm4A6X3kO0&t=337s&ab_channel=THYVIEW
+20060-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=3Rm4A6X3kO0&t=337s&ab_channel=THYVIEW
+21516-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=3Rm4A6X3kO0&t=337s&ab_channel=THYVIEW
+19332-INFO-Fetching data for the Video link https://cinemainf.blogspot.com/
+19960-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+4076-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+20144-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+4200-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+4200-INFO-Download Video for the Stream : 
+{'id': 6, 'stream': <Stream: itag="399" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="av01.0.08M.08" progressive="False" type="video">, 'itag': 399, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 42261844, 'common_size': '36.47 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 36.47 MB'}
+4200-INFO-Downloaded Video for the Stream : 
+{'id': 6, 'stream': <Stream: itag="399" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="av01.0.08M.08" progressive="False" type="video">, 'itag': 399, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 42261844, 'common_size': '36.47 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 36.47 MB'}
+10836-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+10836-INFO-Download Video for the Stream : 
+{'id': 5, 'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 49773689, 'common_size': '43.63 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 43.63 MB'}
+10836-INFO-Downloaded Video for the Stream : 
+{'id': 5, 'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 49773689, 'common_size': '43.63 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 43.63 MB'}
+10836-INFO-Download Video for the Stream : 
+{'id': 4, 'stream': <Stream: itag="137" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="avc1.640028" progressive="False" type="video">, 'itag': 137, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 57947604, 'common_size': '51.43 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 51.43 MB'}
+10836-INFO-Downloaded Video for the Stream : 
+{'id': 4, 'stream': <Stream: itag="137" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="avc1.640028" progressive="False" type="video">, 'itag': 137, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 57947604, 'common_size': '51.43 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 51.43 MB'}
+18184-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+17812-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+16312-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+4200-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+14724-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+14724-INFO-Download Video for the Stream : 
+{'id': 5, 'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 49773689, 'common_size': '43.63 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 43.63 MB'}
+14724-INFO-Downloaded Video for the Stream : 
+{'id': 5, 'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 49773689, 'common_size': '43.63 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 43.63 MB'}
+21888-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+21888-INFO-Download Video for the Stream : 
+{'id': 5, 'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 49773689, 'common_size': '43.63 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 43.63 MB'}
+21888-INFO-Downloaded Video for the Stream : 
+{'id': 5, 'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 49773689, 'common_size': '43.63 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 43.63 MB'}
+21888-INFO-Download Video for the Stream : 
+{'id': 5, 'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 49773689, 'common_size': '43.63 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 43.63 MB'}
+21888-INFO-Downloaded Video for the Stream : 
+{'id': 5, 'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 49773689, 'common_size': '43.63 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 43.63 MB'}
+21888-INFO-Download Video for the Stream : 
+{'id': 5, 'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 49773689, 'common_size': '43.63 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 43.63 MB'}
+21888-INFO-Downloaded Video for the Stream : 
+{'id': 5, 'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 49773689, 'common_size': '43.63 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 43.63 MB'}
+12636-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+12636-INFO-Download Video for the Stream : 
+{'id': 6, 'stream': <Stream: itag="399" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="av01.0.08M.08" progressive="False" type="video">, 'itag': 399, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 42261844, 'common_size': '36.47 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 36.47 MB'}
+12636-INFO-Downloaded Video for the Stream : 
+{'id': 6, 'stream': <Stream: itag="399" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="av01.0.08M.08" progressive="False" type="video">, 'itag': 399, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 42261844, 'common_size': '36.47 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 36.47 MB'}
+12120-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+12120-INFO-Download Video for the Stream : 
+{'id': 4, 'stream': <Stream: itag="137" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="avc1.640028" progressive="False" type="video">, 'itag': 137, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 57947604, 'common_size': '51.43 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 51.43 MB'}
+12120-INFO-Downloaded Video for the Stream : 
+{'id': 4, 'stream': <Stream: itag="137" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="avc1.640028" progressive="False" type="video">, 'itag': 137, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 57947604, 'common_size': '51.43 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 51.43 MB'}
+17064-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+17064-INFO-Download Video for the Stream : 
+{'id': 17, 'stream': <Stream: itag="242" mime_type="video/webm" res="240p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 242, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 8468572, 'common_size': '4.24 MB', 'resolution': '240p', 'fps': 24, 'title': '240p 24fps (video) - 4.24 MB'}
+17064-INFO-Downloaded Video for the Stream : 
+{'id': 17, 'stream': <Stream: itag="242" mime_type="video/webm" res="240p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 242, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 8468572, 'common_size': '4.24 MB', 'resolution': '240p', 'fps': 24, 'title': '240p 24fps (video) - 4.24 MB'}
+9976-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+9976-INFO-Download Video for the Stream : 
+{'id': 19, 'stream': <Stream: itag="160" mime_type="video/mp4" res="144p" fps="24fps" vcodec="avc1.4d400c" progressive="False" type="video">, 'itag': 160, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 6032664, 'common_size': '1.92 MB', 'resolution': '144p', 'fps': 24, 'title': '144p 24fps (video) - 1.92 MB'}
+9976-INFO-Downloaded Video for the Stream : 
+{'id': 19, 'stream': <Stream: itag="160" mime_type="video/mp4" res="144p" fps="24fps" vcodec="avc1.4d400c" progressive="False" type="video">, 'itag': 160, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 6032664, 'common_size': '1.92 MB', 'resolution': '144p', 'fps': 24, 'title': '144p 24fps (video) - 1.92 MB'}
+3556-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+3556-INFO-Download Video for the Stream : 
+{'id': 6, 'stream': <Stream: itag="399" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="av01.0.08M.08" progressive="False" type="video">, 'itag': 399, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 42261844, 'common_size': '36.47 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 36.47 MB'}
+3556-INFO-Downloaded Video for the Stream : 
+{'id': 6, 'stream': <Stream: itag="399" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="av01.0.08M.08" progressive="False" type="video">, 'itag': 399, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 42261844, 'common_size': '36.47 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 36.47 MB'}
+17144-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=jGh-2Yy5XQE&ab_channel=ABTVMovies
+17144-INFO-Download Video for the Stream : 
+{'id': 4, 'stream': <Stream: itag="137" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="avc1.640028" progressive="False" type="video">, 'itag': 137, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=jGh-2Yy5XQE>, 'total': 20, 'raw_size': 179669690, 'common_size': '161.21 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 161.21 MB'}
+17144-INFO-Downloaded Video for the Stream : 
+{'id': 4, 'stream': <Stream: itag="137" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="avc1.640028" progressive="False" type="video">, 'itag': 137, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=jGh-2Yy5XQE>, 'total': 20, 'raw_size': 179669690, 'common_size': '161.21 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 161.21 MB'}
+13736-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=UaoPw74q9No&ab_channel=ACinemaTheory
+13736-INFO-Download Video for the Stream : 
+{'id': 9, 'stream': <Stream: itag="244" mime_type="video/webm" res="480p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 244, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=UaoPw74q9No>, 'total': 20, 'raw_size': 2384774, 'common_size': '1.59 MB', 'resolution': '480p', 'fps': 30, 'title': '480p 30fps (video) - 1.59 MB'}
+13736-INFO-Downloaded Video for the Stream : 
+{'id': 9, 'stream': <Stream: itag="244" mime_type="video/webm" res="480p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 244, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=UaoPw74q9No>, 'total': 20, 'raw_size': 2384774, 'common_size': '1.59 MB', 'resolution': '480p', 'fps': 30, 'title': '480p 30fps (video) - 1.59 MB'}
+18008-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=UaoPw74q9No&ab_channel=ACinemaTheory
+18008-INFO-Download Video for the Stream : 
+{'id': 7, 'stream': <Stream: itag="247" mime_type="video/webm" res="720p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 247, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=UaoPw74q9No>, 'total': 20, 'raw_size': 3454620, 'common_size': '2.61 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 2.61 MB'}
+18008-INFO-Downloaded Video for the Stream : 
+{'id': 7, 'stream': <Stream: itag="247" mime_type="video/webm" res="720p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 247, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=UaoPw74q9No>, 'total': 20, 'raw_size': 3454620, 'common_size': '2.61 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 2.61 MB'}
+18008-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=dY0qtUj0BM0&ab_channel=TV9Entertainment
+18008-INFO-Download Video for the Stream : 
+{'id': 4, 'stream': <Stream: itag="137" mime_type="video/mp4" res="1080p" fps="25fps" vcodec="avc1.640028" progressive="False" type="video">, 'itag': 137, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dY0qtUj0BM0>, 'total': 26, 'raw_size': 30840048, 'common_size': '27.65 MB', 'resolution': '1080p', 'fps': 25, 'title': '1080p 25fps (video) - 27.65 MB'}
+18008-INFO-Downloaded Video for the Stream : 
+{'id': 4, 'stream': <Stream: itag="137" mime_type="video/mp4" res="1080p" fps="25fps" vcodec="avc1.640028" progressive="False" type="video">, 'itag': 137, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dY0qtUj0BM0>, 'total': 26, 'raw_size': 30840048, 'common_size': '27.65 MB', 'resolution': '1080p', 'fps': 25, 'title': '1080p 25fps (video) - 27.65 MB'}
+18008-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+18008-INFO-Download Video for the Stream : 
+{'id': 5, 'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 49773689, 'common_size': '43.63 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 43.63 MB'}
+18008-INFO-Downloaded Video for the Stream : 
+{'id': 5, 'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 49773689, 'common_size': '43.63 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 43.63 MB'}
+18008-INFO-Download Video for the Stream : 
+{'id': 9, 'stream': <Stream: itag="398" mime_type="video/mp4" res="720p" fps="24fps" vcodec="av01.0.05M.08" progressive="False" type="video">, 'itag': 398, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 26323791, 'common_size': '21.27 MB', 'resolution': '720p', 'fps': 24, 'title': '720p 24fps (video) - 21.27 MB'}
+18008-INFO-Downloaded Video for the Stream : 
+{'id': 9, 'stream': <Stream: itag="398" mime_type="video/mp4" res="720p" fps="24fps" vcodec="av01.0.05M.08" progressive="False" type="video">, 'itag': 398, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 26323791, 'common_size': '21.27 MB', 'resolution': '720p', 'fps': 24, 'title': '720p 24fps (video) - 21.27 MB'}
+18008-INFO-Download Video for the Stream : 
+{'id': 4, 'stream': <Stream: itag="137" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="avc1.640028" progressive="False" type="video">, 'itag': 137, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 57947604, 'common_size': '51.43 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 51.43 MB'}
+18008-INFO-Downloaded Video for the Stream : 
+{'id': 4, 'stream': <Stream: itag="137" mime_type="video/mp4" res="1080p" fps="24fps" vcodec="avc1.640028" progressive="False" type="video">, 'itag': 137, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 57947604, 'common_size': '51.43 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 51.43 MB'}
+18008-INFO-Download Video for the Stream : 
+{'id': 21, 'stream': <Stream: itag="394" mime_type="video/mp4" res="144p" fps="24fps" vcodec="av01.0.00M.08" progressive="False" type="video">, 'itag': 394, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 6066909, 'common_size': '1.95 MB', 'resolution': '144p', 'fps': 24, 'title': '144p 24fps (video) - 1.95 MB'}
+18008-INFO-Downloaded Video for the Stream : 
+{'id': 21, 'stream': <Stream: itag="394" mime_type="video/mp4" res="144p" fps="24fps" vcodec="av01.0.00M.08" progressive="False" type="video">, 'itag': 394, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'total': 26, 'raw_size': 6066909, 'common_size': '1.95 MB', 'resolution': '144p', 'fps': 24, 'title': '144p 24fps (video) - 1.95 MB'}
+10284-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+8396-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+3880-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+3880-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'raw_size': 5567403, 'common_size': '1.47 MB', 'abr': '50kbps', 'title': '50kbps (audio) - 1.47 MB'}
+3880-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'raw_size': 5567403, 'common_size': '1.47 MB', 'abr': '50kbps', 'title': '50kbps (audio) - 1.47 MB'}
+3880-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'raw_size': 5567403, 'common_size': '1.47 MB', 'abr': '50kbps', 'title': '50kbps (audio) - 1.47 MB'}
+3880-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'raw_size': 5567403, 'common_size': '1.47 MB', 'abr': '50kbps', 'title': '50kbps (audio) - 1.47 MB'}
+3880-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'raw_size': 5567403, 'common_size': '1.47 MB', 'abr': '50kbps', 'title': '50kbps (audio) - 1.47 MB'}
+3880-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'raw_size': 5567403, 'common_size': '1.47 MB', 'abr': '50kbps', 'title': '50kbps (audio) - 1.47 MB'}
+14036-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=60P5xR4GxvE&ab_channel=SaregamaTelugu
+14036-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'raw_size': 5567403, 'common_size': '1.47 MB', 'abr': '50kbps', 'title': '50kbps (audio) - 1.47 MB'}
+14036-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'raw_size': 5567403, 'common_size': '1.47 MB', 'abr': '50kbps', 'title': '50kbps (audio) - 1.47 MB'}
+14036-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="251" mime_type="audio/webm" abr="160kbps" acodec="opus" progressive="False" type="audio">, 'itag': 251, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'raw_size': 8084521, 'common_size': '3.87 MB', 'abr': '160kbps', 'title': '160kbps (audio) - 3.87 MB'}
+14036-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="251" mime_type="audio/webm" abr="160kbps" acodec="opus" progressive="False" type="audio">, 'itag': 251, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'raw_size': 8084521, 'common_size': '3.87 MB', 'abr': '160kbps', 'title': '160kbps (audio) - 3.87 MB'}
+14036-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 'itag': 140, 'type': ['audio', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'raw_size': 8043990, 'common_size': '3.84 MB', 'abr': '128kbps', 'title': '128kbps (audio) - 3.84 MB'}
+14036-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 'itag': 140, 'type': ['audio', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=60P5xR4GxvE>, 'raw_size': 8043990, 'common_size': '3.84 MB', 'abr': '128kbps', 'title': '128kbps (audio) - 3.84 MB'}
+14036-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=Xxd4iVrXabE&ab_channel=LahariMusic%7CT-Series
+14036-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="401" mime_type="video/mp4" res="2160p" fps="24fps" vcodec="av01.0.12M.08" progressive="False" type="video">, 'itag': 401, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=Xxd4iVrXabE>, 'raw_size': 243272787, 'common_size': '228.39 MB', 'resolution': '2160p', 'fps': 24, 'title': '4k 24fps (video) - 228.39 MB'}
+14036-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="401" mime_type="video/mp4" res="2160p" fps="24fps" vcodec="av01.0.12M.08" progressive="False" type="video">, 'itag': 401, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=Xxd4iVrXabE>, 'raw_size': 243272787, 'common_size': '228.39 MB', 'resolution': '2160p', 'fps': 24, 'title': '4k 24fps (video) - 228.39 MB'}
+2232-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=oTDEMYnXWo8&list=RDMMoTDEMYnXWo8&start_radio=1&ab_channel=iDreamTeluguMovies
+2232-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=oTDEMYnXWo8>, 'raw_size': 3125177, 'common_size': '960.65 KB', 'abr': '50kbps', 'title': '50kbps (audio) - 960.65 KB'}
+2232-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=oTDEMYnXWo8>, 'raw_size': 3125177, 'common_size': '960.65 KB', 'abr': '50kbps', 'title': '50kbps (audio) - 960.65 KB'}
+2232-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 'itag': 140, 'type': ['audio', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=oTDEMYnXWo8>, 'raw_size': 4282952, 'common_size': '2.04 MB', 'abr': '128kbps', 'title': '128kbps (audio) - 2.04 MB'}
+2232-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 'itag': 140, 'type': ['audio', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=oTDEMYnXWo8>, 'raw_size': 4282952, 'common_size': '2.04 MB', 'abr': '128kbps', 'title': '128kbps (audio) - 2.04 MB'}
+2232-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 'itag': 140, 'type': ['audio', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=oTDEMYnXWo8>, 'raw_size': 4282952, 'common_size': '2.04 MB', 'abr': '128kbps', 'title': '128kbps (audio) - 2.04 MB'}
+2232-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 'itag': 140, 'type': ['audio', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=oTDEMYnXWo8>, 'raw_size': 4282952, 'common_size': '2.04 MB', 'abr': '128kbps', 'title': '128kbps (audio) - 2.04 MB'}
+2232-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 'itag': 140, 'type': ['audio', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=oTDEMYnXWo8>, 'raw_size': 4282952, 'common_size': '2.04 MB', 'abr': '128kbps', 'title': '128kbps (audio) - 2.04 MB'}
+2232-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 'itag': 140, 'type': ['audio', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=oTDEMYnXWo8>, 'raw_size': 4282952, 'common_size': '2.04 MB', 'abr': '128kbps', 'title': '128kbps (audio) - 2.04 MB'}
+14436-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=dpWlVWSNYC4&list=RDMMoTDEMYnXWo8&index=2&ab_channel=iDreamTeluguMovies
+14436-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dpWlVWSNYC4>, 'raw_size': 6723602, 'common_size': '2.03 MB', 'abr': '50kbps', 'title': '50kbps (audio) - 2.03 MB'}
+14436-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dpWlVWSNYC4>, 'raw_size': 6723602, 'common_size': '2.03 MB', 'abr': '50kbps', 'title': '50kbps (audio) - 2.03 MB'}
+14436-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dpWlVWSNYC4>, 'raw_size': 6723602, 'common_size': '2.03 MB', 'abr': '50kbps', 'title': '50kbps (audio) - 2.03 MB'}
+14436-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="249" mime_type="audio/webm" abr="50kbps" acodec="opus" progressive="False" type="audio">, 'itag': 249, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dpWlVWSNYC4>, 'raw_size': 6723602, 'common_size': '2.03 MB', 'abr': '50kbps', 'title': '50kbps (audio) - 2.03 MB'}
+20828-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=dpWlVWSNYC4&list=RDMMoTDEMYnXWo8&index=2&ab_channel=iDreamTeluguMovies
+13488-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=dpWlVWSNYC4&list=RDMMoTDEMYnXWo8&index=2&ab_channel=iDreamTeluguMovies
+13488-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="136" mime_type="video/mp4" res="720p" fps="25fps" vcodec="avc1.4d401f" progressive="False" type="video">, 'itag': 136, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dpWlVWSNYC4>, 'raw_size': 64782744, 'common_size': '57.40 MB', 'resolution': '720p', 'fps': 25, 'title': '720p 25fps (video) - 57.40 MB'}
+13488-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="136" mime_type="video/mp4" res="720p" fps="25fps" vcodec="avc1.4d401f" progressive="False" type="video">, 'itag': 136, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dpWlVWSNYC4>, 'raw_size': 64782744, 'common_size': '57.40 MB', 'resolution': '720p', 'fps': 25, 'title': '720p 25fps (video) - 57.40 MB'}
+21184-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=dpWlVWSNYC4&list=RDMMoTDEMYnXWo8&index=2&ab_channel=iDreamTeluguMovies
+7456-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=dpWlVWSNYC4&list=RDMMoTDEMYnXWo8&index=2&ab_channel=iDreamTeluguMovies
+8112-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=CWm9h4cCL14&ab_channel=AdityaMusic
+8112-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=CWm9h4cCL14>, 'raw_size': 5453642, 'common_size': '4.85 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 4.85 MB'}
+8112-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="24fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=CWm9h4cCL14>, 'raw_size': 5453642, 'common_size': '4.85 MB', 'resolution': '1080p', 'fps': 24, 'title': '1080p 24fps (video) - 4.85 MB'}
+18688-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=2-UWH6QsKnA&ab_channel=TNPSCMOTIVATION
+18688-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="135" mime_type="video/mp4" res="480p" fps="30fps" vcodec="avc1.4d401e" progressive="False" type="video">, 'itag': 135, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 5360010, 'common_size': '2.57 MB', 'resolution': '480p', 'fps': 30, 'title': '480p 30fps (video) - 2.57 MB'}
+18688-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="135" mime_type="video/mp4" res="480p" fps="30fps" vcodec="avc1.4d401e" progressive="False" type="video">, 'itag': 135, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 5360010, 'common_size': '2.57 MB', 'resolution': '480p', 'fps': 30, 'title': '480p 30fps (video) - 2.57 MB'}
+19040-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=2-UWH6QsKnA&ab_channel=TNPSCMOTIVATION
+19040-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="244" mime_type="video/webm" res="480p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 244, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 5968116, 'common_size': '3.15 MB', 'resolution': '480p', 'fps': 30, 'title': '480p 30fps (video) - 3.15 MB'}
+19040-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="244" mime_type="video/webm" res="480p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 244, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 5968116, 'common_size': '3.15 MB', 'resolution': '480p', 'fps': 30, 'title': '480p 30fps (video) - 3.15 MB'}
+16036-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=2-UWH6QsKnA&ab_channel=TNPSCMOTIVATION
+16036-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="244" mime_type="video/webm" res="480p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 244, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 5968116, 'common_size': '3.15 MB', 'resolution': '480p', 'fps': 30, 'title': '480p 30fps (video) - 3.15 MB'}
+16036-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="244" mime_type="video/webm" res="480p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 244, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 5968116, 'common_size': '3.15 MB', 'resolution': '480p', 'fps': 30, 'title': '480p 30fps (video) - 3.15 MB'}
+22384-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=2-UWH6QsKnA&ab_channel=TNPSCMOTIVATION
+22384-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="133" mime_type="video/mp4" res="240p" fps="30fps" vcodec="avc1.4d400d" progressive="False" type="video">, 'itag': 133, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 3568463, 'common_size': '880.04 KB', 'resolution': '240p', 'fps': 30, 'title': '240p 30fps (video) - 880.04 KB'}
+22384-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="133" mime_type="video/mp4" res="240p" fps="30fps" vcodec="avc1.4d400d" progressive="False" type="video">, 'itag': 133, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 3568463, 'common_size': '880.04 KB', 'resolution': '240p', 'fps': 30, 'title': '240p 30fps (video) - 880.04 KB'}
+2584-INFO-Fetching data for the Video link sqlite3.OperationalError: near ")": syntax error
+17144-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=2-UWH6QsKnA&ab_channel=TNPSCMOTIVATION
+17144-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="243" mime_type="video/webm" res="360p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 243, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 4838148, 'common_size': '2.07 MB', 'resolution': '360p', 'fps': 30, 'title': '360p 30fps (video) - 2.07 MB'}
+17144-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="243" mime_type="video/webm" res="360p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 243, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 4838148, 'common_size': '2.07 MB', 'resolution': '360p', 'fps': 30, 'title': '360p 30fps (video) - 2.07 MB'}
+17312-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=2-UWH6QsKnA&ab_channel=TNPSCMOTIVATION
+17312-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="133" mime_type="video/mp4" res="240p" fps="30fps" vcodec="avc1.4d400d" progressive="False" type="video">, 'itag': 133, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 3568463, 'common_size': '880.04 KB', 'resolution': '240p', 'fps': 30, 'title': '240p 30fps (video) - 880.04 KB'}
+17312-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="133" mime_type="video/mp4" res="240p" fps="30fps" vcodec="avc1.4d400d" progressive="False" type="video">, 'itag': 133, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 3568463, 'common_size': '880.04 KB', 'resolution': '240p', 'fps': 30, 'title': '240p 30fps (video) - 880.04 KB'}
+17400-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=2-UWH6QsKnA&ab_channel=TNPSCMOTIVATION
+17400-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="134" mime_type="video/mp4" res="360p" fps="30fps" vcodec="avc1.4d4015" progressive="False" type="video">, 'itag': 134, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 4307490, 'common_size': '1.56 MB', 'resolution': '360p', 'fps': 30, 'title': '360p 30fps (video) - 1.56 MB'}
+17400-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="134" mime_type="video/mp4" res="360p" fps="30fps" vcodec="avc1.4d4015" progressive="False" type="video">, 'itag': 134, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 4307490, 'common_size': '1.56 MB', 'resolution': '360p', 'fps': 30, 'title': '360p 30fps (video) - 1.56 MB'}
+21308-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=2-UWH6QsKnA&ab_channel=TNPSCMOTIVATION
+21308-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="133" mime_type="video/mp4" res="240p" fps="30fps" vcodec="avc1.4d400d" progressive="False" type="video">, 'itag': 133, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 3568463, 'common_size': '880.04 KB', 'resolution': '240p', 'fps': 30, 'title': '240p 30fps (video) - 880.04 KB'}
+21308-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="133" mime_type="video/mp4" res="240p" fps="30fps" vcodec="avc1.4d400d" progressive="False" type="video">, 'itag': 133, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 3568463, 'common_size': '880.04 KB', 'resolution': '240p', 'fps': 30, 'title': '240p 30fps (video) - 880.04 KB'}
+8024-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=2-UWH6QsKnA&ab_channel=TNPSCMOTIVATION
+8024-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="244" mime_type="video/webm" res="480p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 244, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 5968116, 'common_size': '3.15 MB', 'resolution': '480p', 'fps': 30, 'title': '480p 30fps (video) - 3.15 MB'}
+8024-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="244" mime_type="video/webm" res="480p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 244, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 5968116, 'common_size': '3.15 MB', 'resolution': '480p', 'fps': 30, 'title': '480p 30fps (video) - 3.15 MB'}
+17260-INFO-Fetching data for the Video link https://youtube.com/watch?v=2-UWH6QsKnA
+17260-INFO-Fetching data for the Video link https://youtube.com/watch?v=2-UWH6QsKnA
+21448-INFO-Fetching data for the Video link https://youtube.com/watch?v=2-UWH6QsKnA
+8256-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=2-UWH6QsKnA&ab_channel=TNPSCMOTIVATION
+8256-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="134" mime_type="video/mp4" res="360p" fps="30fps" vcodec="avc1.4d4015" progressive="False" type="video">, 'itag': 134, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 4307490, 'common_size': '1.56 MB', 'resolution': '360p', 'fps': 30, 'title': '360p 30fps (video) - 1.56 MB'}
+8256-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="134" mime_type="video/mp4" res="360p" fps="30fps" vcodec="avc1.4d4015" progressive="False" type="video">, 'itag': 134, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 4307490, 'common_size': '1.56 MB', 'resolution': '360p', 'fps': 30, 'title': '360p 30fps (video) - 1.56 MB'}
+22508-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=dx4OkE8XPhM&ab_channel=THYVIEW
+22508-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="303" mime_type="video/webm" res="1080p" fps="60fps" vcodec="vp9" progressive="False" type="video">, 'itag': 303, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dx4OkE8XPhM>, 'raw_size': 49338598, 'common_size': '41.63 MB', 'resolution': '1080p', 'fps': 60, 'title': '1080p 60fps (video) - 41.63 MB'}
+22508-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="303" mime_type="video/webm" res="1080p" fps="60fps" vcodec="vp9" progressive="False" type="video">, 'itag': 303, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dx4OkE8XPhM>, 'raw_size': 49338598, 'common_size': '41.63 MB', 'resolution': '1080p', 'fps': 60, 'title': '1080p 60fps (video) - 41.63 MB'}
+5008-INFO-Fetching data for the Video link https://youtube.com/watch?v=dx4OkE8XPhM
+5008-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="299" mime_type="video/mp4" res="1080p" fps="60fps" vcodec="avc1.64002a" progressive="False" type="video">, 'itag': 299, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dx4OkE8XPhM>, 'raw_size': 44993440, 'common_size': '37.49 MB', 'resolution': '1080p', 'fps': 60, 'title': '1080p 60fps (video) - 37.49 MB'}
+5008-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="299" mime_type="video/mp4" res="1080p" fps="60fps" vcodec="avc1.64002a" progressive="False" type="video">, 'itag': 299, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dx4OkE8XPhM>, 'raw_size': 44993440, 'common_size': '37.49 MB', 'resolution': '1080p', 'fps': 60, 'title': '1080p 60fps (video) - 37.49 MB'}
+5604-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=dx4OkE8XPhM&ab_channel=THYVIEW
+5604-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="303" mime_type="video/webm" res="1080p" fps="60fps" vcodec="vp9" progressive="False" type="video">, 'itag': 303, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dx4OkE8XPhM>, 'raw_size': 49338598, 'common_size': '41.63 MB', 'resolution': '1080p', 'fps': 60, 'title': '1080p 60fps (video) - 41.63 MB'}
+5604-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="303" mime_type="video/webm" res="1080p" fps="60fps" vcodec="vp9" progressive="False" type="video">, 'itag': 303, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dx4OkE8XPhM>, 'raw_size': 49338598, 'common_size': '41.63 MB', 'resolution': '1080p', 'fps': 60, 'title': '1080p 60fps (video) - 41.63 MB'}
+11720-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=2-UWH6QsKnA&ab_channel=TNPSCMOTIVATION
+11720-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="134" mime_type="video/mp4" res="360p" fps="30fps" vcodec="avc1.4d4015" progressive="False" type="video">, 'itag': 134, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 4307490, 'common_size': '1.56 MB', 'resolution': '360p', 'fps': 30, 'title': '360p 30fps (video) - 1.56 MB'}
+11720-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="134" mime_type="video/mp4" res="360p" fps="30fps" vcodec="avc1.4d4015" progressive="False" type="video">, 'itag': 134, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 4307490, 'common_size': '1.56 MB', 'resolution': '360p', 'fps': 30, 'title': '360p 30fps (video) - 1.56 MB'}
+11720-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="242" mime_type="video/webm" res="240p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 242, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 3861738, 'common_size': '1.14 MB', 'resolution': '240p', 'fps': 30, 'title': '240p 30fps (video) - 1.14 MB'}
+11720-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="242" mime_type="video/webm" res="240p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 242, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=2-UWH6QsKnA>, 'raw_size': 3861738, 'common_size': '1.14 MB', 'resolution': '240p', 'fps': 30, 'title': '240p 30fps (video) - 1.14 MB'}
+3168-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=-fnorAGUAr4&ab_channel=DevilEdit%27S
+3168-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="135" mime_type="video/mp4" res="480p" fps="30fps" vcodec="avc1.4d401f" progressive="False" type="video">, 'itag': 135, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=-fnorAGUAr4>, 'raw_size': 5727211, 'common_size': '4.73 MB', 'resolution': '480p', 'fps': 30, 'title': '480p 30fps (video) - 4.73 MB'}
+3168-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="135" mime_type="video/mp4" res="480p" fps="30fps" vcodec="avc1.4d401f" progressive="False" type="video">, 'itag': 135, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=-fnorAGUAr4>, 'raw_size': 5727211, 'common_size': '4.73 MB', 'resolution': '480p', 'fps': 30, 'title': '480p 30fps (video) - 4.73 MB'}
+3168-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=uim3cssl5qE&ab_channel=JokerTamil
+3168-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="243" mime_type="video/webm" res="360p" fps="25fps" vcodec="vp9" progressive="False" type="video">, 'itag': 243, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=uim3cssl5qE>, 'raw_size': 1079343, 'common_size': '325.26 KB', 'resolution': '360p', 'fps': 25, 'title': '360p 25fps (video) - 325.26 KB'}
+3168-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="243" mime_type="video/webm" res="360p" fps="25fps" vcodec="vp9" progressive="False" type="video">, 'itag': 243, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=uim3cssl5qE>, 'raw_size': 1079343, 'common_size': '325.26 KB', 'resolution': '360p', 'fps': 25, 'title': '360p 25fps (video) - 325.26 KB'}
+21008-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=uim3cssl5qE&ab_channel=JokerTamil
+21008-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="134" mime_type="video/mp4" res="360p" fps="25fps" vcodec="avc1.4d4015" progressive="False" type="video">, 'itag': 134, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=uim3cssl5qE>, 'raw_size': 1405750, 'common_size': '644.02 KB', 'resolution': '360p', 'fps': 25, 'title': '360p 25fps (video) - 644.02 KB'}
+21008-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="134" mime_type="video/mp4" res="360p" fps="25fps" vcodec="avc1.4d4015" progressive="False" type="video">, 'itag': 134, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=uim3cssl5qE>, 'raw_size': 1405750, 'common_size': '644.02 KB', 'resolution': '360p', 'fps': 25, 'title': '360p 25fps (video) - 644.02 KB'}
+14908-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=S-3g7JMw_hU&ab_channel=TheDarkMarketer
+14908-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="247" mime_type="video/webm" res="720p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 247, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=S-3g7JMw_hU>, 'raw_size': 4342960, 'common_size': '3.08 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 3.08 MB'}
+14908-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="247" mime_type="video/webm" res="720p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 247, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=S-3g7JMw_hU>, 'raw_size': 4342960, 'common_size': '3.08 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 3.08 MB'}
+14908-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=KIU7wcjd7yA&ab_channel=MYMovieShow
+14908-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="136" mime_type="video/mp4" res="720p" fps="24fps" vcodec="avc1.4d401f" progressive="False" type="video">, 'itag': 136, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=KIU7wcjd7yA>, 'raw_size': 6226604, 'common_size': '4.41 MB', 'resolution': '720p', 'fps': 24, 'title': '720p 24fps (video) - 4.41 MB'}
+14908-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="136" mime_type="video/mp4" res="720p" fps="24fps" vcodec="avc1.4d401f" progressive="False" type="video">, 'itag': 136, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=KIU7wcjd7yA>, 'raw_size': 6226604, 'common_size': '4.41 MB', 'resolution': '720p', 'fps': 24, 'title': '720p 24fps (video) - 4.41 MB'}
+14908-INFO-Fetching data for the Video link https://youtube.com/watch?v=KIU7wcjd7yA
+14908-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=V-z545tAuRk&ab_channel=ArpitaKarwa
+14908-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="247" mime_type="video/webm" res="720p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 247, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=V-z545tAuRk>, 'raw_size': 138143435, 'common_size': '120.06 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 120.06 MB'}
+14908-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="247" mime_type="video/webm" res="720p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 247, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=V-z545tAuRk>, 'raw_size': 138143435, 'common_size': '120.06 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 120.06 MB'}
+14908-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="247" mime_type="video/webm" res="720p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 247, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=V-z545tAuRk>, 'raw_size': 138143435, 'common_size': '120.06 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 120.06 MB'}
+14908-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="247" mime_type="video/webm" res="720p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 247, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=V-z545tAuRk>, 'raw_size': 138143435, 'common_size': '120.06 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 120.06 MB'}
+11784-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=zwJ33fx5iyA
+11784-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=zwJ33fx5iyA>, 'raw_size': 10757773, 'common_size': '9.66 MB', 'resolution': '1080p', 'fps': 30, 'title': '1080p 30fps (video) - 9.66 MB'}
+11784-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=zwJ33fx5iyA>, 'raw_size': 10757773, 'common_size': '9.66 MB', 'resolution': '1080p', 'fps': 30, 'title': '1080p 30fps (video) - 9.66 MB'}
+11784-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=zwJ33fx5iyA>, 'raw_size': 10757773, 'common_size': '9.66 MB', 'resolution': '1080p', 'fps': 30, 'title': '1080p 30fps (video) - 9.66 MB'}
+11784-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="248" mime_type="video/webm" res="1080p" fps="30fps" vcodec="vp9" progressive="False" type="video">, 'itag': 248, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=zwJ33fx5iyA>, 'raw_size': 10757773, 'common_size': '9.66 MB', 'resolution': '1080p', 'fps': 30, 'title': '1080p 30fps (video) - 9.66 MB'}
+9668-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=T6OIm4iNcyg
+9668-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="18" mime_type="video/mp4" res="360p" fps="25fps" vcodec="avc1.42001E" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 18, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=T6OIm4iNcyg>, 'raw_size': 42973235, 'common_size': '40.98 MB', 'resolution': '360p', 'fps': 25, 'title': '360p 25fps (video) - 40.98 MB'}
+9668-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="18" mime_type="video/mp4" res="360p" fps="25fps" vcodec="avc1.42001E" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 18, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=T6OIm4iNcyg>, 'raw_size': 42973235, 'common_size': '40.98 MB', 'resolution': '360p', 'fps': 25, 'title': '360p 25fps (video) - 40.98 MB'}
+15480-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=T6OIm4iNcyg
+17660-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=T6OIm4iNcyg
+5612-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=T6OIm4iNcyg
+5612-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="251" mime_type="audio/webm" abr="160kbps" acodec="opus" progressive="False" type="audio">, 'itag': 251, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=T6OIm4iNcyg>, 'raw_size': 25203300, 'common_size': '12.30 MB', 'abr': '160kbps', 'title': '160kbps (audio) - 12.30 MB'}
+5612-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="251" mime_type="audio/webm" abr="160kbps" acodec="opus" progressive="False" type="audio">, 'itag': 251, 'type': ['audio', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=T6OIm4iNcyg>, 'raw_size': 25203300, 'common_size': '12.30 MB', 'abr': '160kbps', 'title': '160kbps (audio) - 12.30 MB'}
+11368-INFO-Fetching data for the Video link from helpers import millify,humanbytes
+5556-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=T6OIm4iNcyg
+14576-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=T6OIm4iNcyg
+14576-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="25fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=T6OIm4iNcyg>, 'raw_size': 58541661, 'common_size': '55.83 MB', 'resolution': '720p', 'fps': 25, 'title': '720p 25fps (video) - 55.83 MB'}
+14576-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="25fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=T6OIm4iNcyg>, 'raw_size': 58541661, 'common_size': '55.83 MB', 'resolution': '720p', 'fps': 25, 'title': '720p 25fps (video) - 55.83 MB'}
+14576-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=dzRgnnltCs0
+14576-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="247" mime_type="video/webm" res="720p" fps="25fps" vcodec="vp9" progressive="False" type="video">, 'itag': 247, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dzRgnnltCs0>, 'raw_size': 61600003, 'common_size': '53.92 MB', 'resolution': '720p', 'fps': 25, 'title': '720p 25fps (video) - 53.92 MB'}
+14576-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="247" mime_type="video/webm" res="720p" fps="25fps" vcodec="vp9" progressive="False" type="video">, 'itag': 247, 'type': ['video', 'webm'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=dzRgnnltCs0>, 'raw_size': 61600003, 'common_size': '53.92 MB', 'resolution': '720p', 'fps': 25, 'title': '720p 25fps (video) - 53.92 MB'}
+14092-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=TkGZ-qo6wmE
+14092-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 'itag': 140, 'type': ['audio', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=TkGZ-qo6wmE>, 'raw_size': 7334954, 'common_size': '3.50 MB', 'abr': '128kbps', 'title': '128kbps (audio) - 3.50 MB'}
+14092-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 'itag': 140, 'type': ['audio', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=TkGZ-qo6wmE>, 'raw_size': 7334954, 'common_size': '3.50 MB', 'abr': '128kbps', 'title': '128kbps (audio) - 3.50 MB'}
+14092-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=rADxNvZFSnQ
+14092-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 'itag': 140, 'type': ['audio', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=rADxNvZFSnQ>, 'raw_size': 9116650, 'common_size': '4.35 MB', 'abr': '128kbps', 'title': '128kbps (audio) - 4.35 MB'}
+14092-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">, 'itag': 140, 'type': ['audio', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=rADxNvZFSnQ>, 'raw_size': 9116650, 'common_size': '4.35 MB', 'abr': '128kbps', 'title': '128kbps (audio) - 4.35 MB'}
+7984-INFO-Fetching data for the Video link "YouDer - Free, YouTube Video Downloader"
+17400-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=ne1O7KjsZ38
+17400-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=ne1O7KjsZ38>, 'raw_size': 8278162, 'common_size': '7.89 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 7.89 MB'}
+17400-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=ne1O7KjsZ38>, 'raw_size': 8278162, 'common_size': '7.89 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 7.89 MB'}
+17400-INFO-Fetching data for the Video link https://youtube.com/watch?v=ne1O7KjsZ38
+8836-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=ne1O7KjsZ38
+8836-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=ne1O7KjsZ38>, 'raw_size': 8278162, 'common_size': '7.89 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 7.89 MB'}
+8836-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=ne1O7KjsZ38>, 'raw_size': 8278162, 'common_size': '7.89 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 7.89 MB'}
+4508-INFO-Fetching data for the Video link https://youtube.com/watch?v=ne1O7KjsZ38
+4508-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=XJS7UHa5GV0
+4508-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+4508-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+17468-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=XJS7UHa5GV0
+17468-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+17468-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+4648-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=XJS7UHa5GV0
+4648-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+4648-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+10684-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=XJS7UHa5GV0
+10684-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+10684-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+17244-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=XJS7UHa5GV0
+17244-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+17244-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+14268-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=XJS7UHa5GV0
+14268-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+14268-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+13992-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=XJS7UHa5GV0
+13992-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+13992-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+13992-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+13992-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+13992-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+13992-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=XJS7UHa5GV0>, 'raw_size': 36068628, 'common_size': '34.40 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 34.40 MB'}
+11668-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=rADxNvZFSnQ
+11668-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="398" mime_type="video/mp4" res="720p" fps="25fps" vcodec="av01.0.05M.08" progressive="False" type="video">, 'itag': 398, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=rADxNvZFSnQ>, 'raw_size': 40268783, 'common_size': '34.06 MB', 'resolution': '720p', 'fps': 25, 'title': '720p 25fps (video) - 34.06 MB'}
+11668-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="398" mime_type="video/mp4" res="720p" fps="25fps" vcodec="av01.0.05M.08" progressive="False" type="video">, 'itag': 398, 'type': ['video', 'mp4'], 'progressive': False, 'yt': <pytube.__main__.YouTube object: videoId=rADxNvZFSnQ>, 'raw_size': 40268783, 'common_size': '34.06 MB', 'resolution': '720p', 'fps': 25, 'title': '720p 25fps (video) - 34.06 MB'}
+14140-INFO-Fetching data for the Video link fggdfg
+14140-INFO-Fetching data for the Video link fggdfg
+15980-INFO-Fetching data for the Video link jklk
+15980-INFO-Fetching data for the Video link jklk
+8836-INFO-Fetching data for the Video link hjjjjjjj
+8836-INFO-Fetching data for the Video link hjjjjjj
+11752-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=A2kzEG72dYU
+8084-INFO-Fetching data for the Video link color: rgb(0,0,0);
+
+border:0px solid black;
+7016-INFO-Fetching data for the Video link color: rgb(0,0,0);
+
+border:0px solid black;
+16380-INFO-Fetching data for the Video link color: rgb(0,0,0);
+
+border:0px solid black;
+16380-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=A2kzEG72dYU
+10392-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=A2kzEG72dYU
+9708-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=A2kzEG72dYU
+11092-INFO-Fetching data for the Video link https://www.youtube.co/watch?v=wwLCK9BbMdQ
+6500-INFO-Fetching data for the Video link https://www.youtube.com /watch?v=wwLCK9BbMdQ
+6500-INFO-Fetching data for the Video link gdfhfjgk
+6500-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 61, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+6500-INFO-Fetching data for the Video link gdfhf
+6500-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 61, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+6500-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=5UvC9XEAL9k
+6500-ERROR-5UvC9XEAL9k is streaming live and cannot be loaded
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 75, in run
+    default_audio_stream = yt.streams.get_audio_only() #Audio Stream
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 291, in streams
+    self.check_availability()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 229, in check_availability
+    raise exceptions.LiveStreamError(video_id=self.video_id)
+pytube.exceptions.LiveStreamError: 5UvC9XEAL9k is streaming live and cannot be loaded
+11472-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=5UvC9XEAL9k
+11472-ERROR-5UvC9XEAL9k is streaming live and cannot be loaded
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 75, in run
+    default_audio_stream = yt.streams.get_audio_only() #Audio Stream
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 291, in streams
+    self.check_availability()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 229, in check_availability
+    raise exceptions.LiveStreamError(video_id=self.video_id)
+pytube.exceptions.LiveStreamError: 5UvC9XEAL9k is streaming live and cannot be loaded
+17300-INFO-Fetching data for the Video link self.signals.fetch.emit(False)
+17300-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 61, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+17300-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=5UvC9XEAL9k
+17300-ERROR-5UvC9XEAL9k is streaming live and cannot be loaded
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 75, in run
+    default_audio_stream = yt.streams.get_audio_only() #Audio Stream
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 291, in streams
+    self.check_availability()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 229, in check_availability
+    raise exceptions.LiveStreamError(video_id=self.video_id)
+pytube.exceptions.LiveStreamError: 5UvC9XEAL9k is streaming live and cannot be loaded
+17300-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=5UvC9XEAL9k
+17300-ERROR-5UvC9XEAL9k is streaming live and cannot be loaded
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 75, in run
+    default_audio_stream = yt.streams.get_audio_only() #Audio Stream
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 291, in streams
+    self.check_availability()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 229, in check_availability
+    raise exceptions.LiveStreamError(video_id=self.video_id)
+pytube.exceptions.LiveStreamError: 5UvC9XEAL9k is streaming live and cannot be loaded
+17300-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=EX_8ZjT2sO4
+17300-ERROR-EX_8ZjT2sO4 is age restricted, and can't be accessed without logging in.
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 75, in run
+    default_audio_stream = yt.streams.get_audio_only() #Audio Stream
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 292, in streams
+    return StreamQuery(self.fmt_streams)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 172, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 156, in streaming_data
+    self.bypass_age_gate()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 260, in bypass_age_gate
+    raise exceptions.AgeRestrictedError(self.video_id)
+pytube.exceptions.AgeRestrictedError: EX_8ZjT2sO4 is age restricted, and can't be accessed without logging in.
+17300-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=EX_8ZjT2sO4
+17300-ERROR-<urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1392, in connect
+    super().connect()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 936, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 64, in run
+    'title': yt.title,
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 337, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 242, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\innertube.py", line 300, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\innertube.py", line 246, in _call_api
+    data=data
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+11096-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=EX_8ZjT2sO4
+11396-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=8_rSsJXmLNk
+11396-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=8_rSsJXmLNk>, 'raw_size': 184837825, 'common_size': '176.28 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 176.28 MB'}
+11396-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=8_rSsJXmLNk>, 'raw_size': 184837825, 'common_size': '176.28 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 176.28 MB'}
+11396-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=8_rSsJXmLNk>, 'raw_size': 184837825, 'common_size': '176.28 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 176.28 MB'}
+11396-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="22" mime_type="video/mp4" res="720p" fps="30fps" vcodec="avc1.64001F" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 22, 'type': ['video', 'mp4'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=8_rSsJXmLNk>, 'raw_size': 184837825, 'common_size': '176.28 MB', 'resolution': '720p', 'fps': 30, 'title': '720p 30fps (video) - 176.28 MB'}
+9640-INFO-Fetching data for the Video link color: rgb(0,0,0);
+	background-color: rgb(255,255,255);
+	border: 0px solid black;
+	border-radius:10px;
+9640-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 62, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+9640-INFO-Fetching data for the Video link color: rgb(0,0,0);
+	background-color: rgb(255,255,255);
+	border: 0px solid black;
+	border-radius:10px;
+9640-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 62, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2872-INFO-Fetching data for the Video link file:///C:/Users/ramdu/Downloads/i.png
+2872-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 62, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2872-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=VumsdDIOY9A&list=RDVumsdDIOY9A&start_radio=1
+7576-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=5Bo1vLeDWMo
+7576-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="12fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=5Bo1vLeDWMo>, 'raw_size': 891008, 'common_size': '870.12 KB', 'resolution': '144p', 'fps': 12, 'title': '144p 12fps (video) - 870.12 KB'}
+7576-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="12fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=5Bo1vLeDWMo>, 'raw_size': 891008, 'common_size': '870.12 KB', 'resolution': '144p', 'fps': 12, 'title': '144p 12fps (video) - 870.12 KB'}
+7576-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="12fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=5Bo1vLeDWMo>, 'raw_size': 891008, 'common_size': '870.12 KB', 'resolution': '144p', 'fps': 12, 'title': '144p 12fps (video) - 870.12 KB'}
+7576-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="12fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=5Bo1vLeDWMo>, 'raw_size': 891008, 'common_size': '870.12 KB', 'resolution': '144p', 'fps': 12, 'title': '144p 12fps (video) - 870.12 KB'}
+12304-INFO-Fetching data for the Video link https://youtube.com/watch?v=5Bo1vLeDWMo
+12304-ERROR-<urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 1392, in connect
+    super().connect()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\http\client.py", line 936, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\socket.py", line 704, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 65, in run
+    'title': yt.title,
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 337, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 242, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\innertube.py", line 300, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\innertube.py", line 246, in _call_api
+    data=data
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\urllib\request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+12304-INFO-Fetching data for the Video link 
+
+    "delete_button":{
+        'black' : ":/history_frame/icons/black/delete.png",
+        'white' : ":/history_frame/icons/white/delete.png",
+        'pink'  : ":/history_frame/icons/pink/delete.png",
+        'green' : ":/history_frame/icons/green/delete.png"
+
+    },
+    "open":{
+        'black' : ":/history_frame/icons/black/folder.png",
+        'white' : ":/history_frame/icons/white/folder.png",
+        'pink'  : ":/history_frame/icons/pink/folder_pink.png",
+        'green' : ":/history_frame/icons/green/folder_green.png"
+
+    },
+    "play":{
+        'black' : ":/history_frame/icons/black/play.png",
+        'white' : ":/history_frame/icons/white/play.png",
+        'pink'  : ":/history_frame/icons/pink/play.png",
+        'green' : ":/history_frame/icons/green/play.png"
+
+    },
+    "run":{
+        'black' : ":/history_frame/icons/black/reload.png",
+        'white' : ":/history_frame/icons/white/reload.png",
+        'pink'  : ":/history_frame/icons/pink/reload.png",
+        'green' : ":/toggle/reload_green.png"
+
+    },
+    "youtube":{
+        'black' : ":/font/youtube.png",
+        'white' : ":/font/youtube.png",
+        'pink'  : ":/font/youtube.png",
+        'green' : ":/font/youtube.png"
+
+    }
+12304-ERROR-history_fra is unavailable
+Traceback (most recent call last):
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 337, in title
+    self._title = self.vid_info['videoDetails']['title']
+KeyError: 'videoDetails'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 65, in run
+    'title': yt.title,
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 341, in title
+    self.check_availability()
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 227, in check_availability
+    raise exceptions.VideoUnavailable(video_id=self.video_id)
+pytube.exceptions.VideoUnavailable: history_fra is unavailable
+6264-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=gR-yRj0GREg
+6264-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="7fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=gR-yRj0GREg>, 'raw_size': 3164036, 'common_size': '3.02 MB', 'resolution': '144p', 'fps': 7, 'title': '144p 7fps (video) - 3.02 MB'}
+6264-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="7fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=gR-yRj0GREg>, 'raw_size': 3164036, 'common_size': '3.02 MB', 'resolution': '144p', 'fps': 7, 'title': '144p 7fps (video) - 3.02 MB'}
+6264-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="7fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=gR-yRj0GREg>, 'raw_size': 3164036, 'common_size': '3.02 MB', 'resolution': '144p', 'fps': 7, 'title': '144p 7fps (video) - 3.02 MB'}
+6264-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="7fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=gR-yRj0GREg>, 'raw_size': 3164036, 'common_size': '3.02 MB', 'resolution': '144p', 'fps': 7, 'title': '144p 7fps (video) - 3.02 MB'}
+10948-INFO-Fetching data for the Video link https://www.youtube.com/watch?v=RdbBY3ZqirE
+10948-INFO-Download Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="8fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=RdbBY3ZqirE>, 'raw_size': 2885765, 'common_size': '2.75 MB', 'resolution': '144p', 'fps': 8, 'title': '144p 8fps (video) - 2.75 MB'}
+10948-INFO-Downloaded Video for the Stream : 
+{'stream': <Stream: itag="17" mime_type="video/3gpp" res="144p" fps="8fps" vcodec="mp4v.20.3" acodec="mp4a.40.2" progressive="True" type="video">, 'itag': 17, 'type': ['video', '3gpp'], 'progressive': True, 'yt': <pytube.__main__.YouTube object: videoId=RdbBY3ZqirE>, 'raw_size': 2885765, 'common_size': '2.75 MB', 'resolution': '144p', 'fps': 8, 'title': '144p 8fps (video) - 2.75 MB'}
+6244-INFO-Fetching data for the Video link 
+C:\Users\ramdu\Documents\YouDer-main>
+6244-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 62, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+6244-INFO-Fetching data for the Video link 
+C:\Users\ramdu\Documents\YouDer-main>
+6244-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 62, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+6244-INFO-Fetching data for the Video link 
+C:\Users\ramdu\Documents\YouDer-main>
+6244-ERROR-regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+Traceback (most recent call last):
+  File "C:\Users\ramdu\Documents\YouDer-main\src\main\python\youder\workers\fetch.py", line 62, in run
+    yt = YouTube(self.link)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+  File "C:\Users\ramdu\AppData\Local\Programs\Python\Python36\lib\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*

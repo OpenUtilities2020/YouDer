@@ -1,15 +1,19 @@
 <RCC>
   <qresource prefix="toggle">
+    <file>reload_green.png</file>
     <file>icons/white/toggle_hor.png</file>
   </qresource>
+  <qresource/>
   <qresource prefix="icon">
     <file>icons/icon.png</file>
+    <file>youtube.png</file>
   </qresource>
   <qresource prefix="youtube_icon">
     <file>icons/black/youtube_icon.png</file>
   </qresource>
   <qresource prefix="font">
-    <file>fonts/product_sans.ttf</file>
+    <file alias=";">fonts/product_sans.ttf</file>
+    <file>youtube.png</file>
   </qresource>
   <qresource prefix="toggle_on">
     <file>icons/white/toggle_on.png</file>
@@ -145,5 +149,27 @@
   </qresource>
   <qresource prefix="home">
     <file>icons/white/home.png</file>
+  </qresource>
+  <qresource prefix="stop"/>
+  <qresource prefix="history_frame">
+    <file>icons/white/delete.png</file>
+    <file>icons/white/folder.png</file>
+    <file>icons/white/play.png</file>
+    <file>icons/white/reload.png</file>
+    <file>icons/black/delete.png</file>
+    <file>icons/black/folder.png</file>
+    <file>icons/black/play.png</file>
+    <file>icons/black/reload.png</file>
+    <file>icons/pink/delete.png</file>
+    <file>icons/pink/folder_pink.png</file>
+    <file>icons/pink/play.png</file>
+    <file>icons/green/delete.png</file>
+    <file>icons/green/folder_green.png</file>
+    <file>icons/green/play.png</file>
+    <file>icons/pink/reload.png</file>
+    <file>icons/white/history.png</file>
+    <file>icons/green/history.png</file>
+    <file>icons/black/history.png</file>
+    <file>icons/pink/histroy.png</file>
   </qresource>
 </RCC>

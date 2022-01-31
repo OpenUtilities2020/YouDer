@@ -1,0 +1,72 @@
+QFrame#frame_main_history{
+	background-color:rgb(24,25,29);
+	
+	border-radius: 5px;
+	
+}
+
+QLabel#title_label{
+	color:rgb(250,250,250);
+	}
+
+QPushButton#delete_button{
+	
+	color: rgb(240, 240, 240);
+	
+	background-color: rgb(24, 25, 29);
+		border: 0px solid black;
+	border-radius:10px;
+
+}
+QPushButton#delete_button:pressed{
+background-color: rgb(58, 60, 70);
+}
+QPushButton#youtube{
+	
+	color: rgb(240, 240, 240);
+	
+	background-color: rgb(24, 25, 29);
+		border: 0px solid black;
+	border-radius:10px;
+
+}
+QPushButton#youtube:pressed{
+background-color: rgb(58, 60, 70);
+}
+QPushButton#run
+{
+	
+	color: rgb(240, 240, 240);
+	
+	background-color: rgb(24, 25, 29);
+		border: 0px solid black;
+	border-radius:10px;
+
+}
+QPushButton#run:pressed{
+background-color: rgb(58, 60, 70);
+}
+QPushButton#play{
+	
+	color: rgb(240, 240, 240);
+	
+	background-color: rgb(24, 25, 29);
+		border: 0px solid black;
+	border-radius:10px;
+
+}
+QPushButton#play:pressed{
+background-color: rgb(58, 60, 70);
+}
+QPushButton#open{
+	
+	color: rgb(240, 240, 240);
+	
+	background-color: rgb(24, 25, 29);
+		border: 0px solid black;
+	border-radius:10px;
+
+}
+QPushButton#open:pressed{
+background-color: rgb(58, 60, 70);
+}
